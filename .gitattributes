@@ -1,0 +1,6 @@
+# Keep line endings consistent
+* text=auto
+
+# Generated artifact: data.js is produced by build.py, but we still track it in git
+# so the site stays deployable without the vault. Regenerate via `python3 build.py`.
+src/data.js linguist-generated=true

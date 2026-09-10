@@ -2,6 +2,8 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 jobs:
   deploy:
@@ -11,6 +13,20 @@ jobs:
       deployments: write
     steps:
       - uses: actions/checkout@v4
+
+      - name: Regenerate data from vault notes
+        run: python3 build.py
+
+      - name: Verify generated data is valid
+        run: |
+          python3 - <<'EOF'
+          import json, re
+          js = open('src/data.js').read()
+          d = json.loads(re.sub(r'^window\.DESIGN_DATA\s*=\s*', '', js).rstrip(';'))
+          assert d and all(isinstance(v, list) for v in d.values()), "data.js malformed"
+          print(f"OK: {sum(len(v) for v in d.values())} entries")
+          EOF
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         env:
@@ -19,4 +35,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy src --project-name=design-ghuf-app --branch=main
+          command: pages deploy src --project-name=design-ghuf-app --branch=${{ github.ref_name }}

@@ -1,0 +1,17 @@
+{
+  "name": "design-ghuf-app",
+  "version": "1.0.0",
+  "description": "Curated directory of design resources: component libraries, design systems, UI inspiration, developer tools, and AI design prompts.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 build.py",
+    "preview": "python3 -m http.server 8137 --bind 127.0.0.1 --directory src"
+  },
+  "license": "MIT",
+  "keywords": ["design", "resources", "components", "design-systems", "ui", "curated"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghufrnainun/design-ghuf-app.git"
+  }
+}
