@@ -6,6 +6,8 @@ import json, re, sys
 from pathlib import Path
 
 VAULT = Path("/home/ubuntu/obsidian-vault")
+# Allow override so the build works on machines without the vault (e.g. CI, contributors)
+VAULT = Path(__import__("os").environ.get("DESIGN_VAULT", str(VAULT)))
 OUT = Path(__file__).resolve().parent / "src" / "data.js"
 
 URL_RE = re.compile(r"https?://[^\s)\]]+")
@@ -264,6 +266,10 @@ def gather():
 
 
 def main():
+    if not VAULT.exists():
+        print(f"SKIP: vault not found at {VAULT}; keeping committed src/data.js", file=sys.stderr)
+        # set DESIGN_VAULT=/path/to/vault or edit build.py to regenerate
+        return 0
     cats = gather()
     seen_urls = set()
     for cat, entries in cats.items():
