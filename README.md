@@ -25,22 +25,26 @@ directly at the resource itself, grouped by category:
 
 ## Stack
 
-Static site, no framework. The content source is plain Markdown, and a small
-Node script turns it into the data file the page renders.
+Static site built with **React + Vite**, deployed to Cloudflare Pages. The
+content source is plain Markdown, and a small Node script turns it into the
+data module the app imports.
 
-```
-resources/*.md          content source (edit these)
-scripts/parse.mjs       markdown parser
-scripts/build.mjs       build: resources/ -> src/data.js
-src/index.html          page markup
-src/app.js              render, search, theme (vanilla JS)
-src/styles.css          styling (dark/light, responsive)
-test/parse.test.mjs     parser tests (node:test)
+```text
+resources/*.md            content source (edit these)
+scripts/parse.mjs         markdown parser
+scripts/build.mjs         build: resources/ -> src/data.js (ESM)
+src/App.jsx               UI (React)
+src/main.jsx              entry
+src/styles.css            styling (dark/light, responsive)
+src/data.js               generated data module
+public/_headers           HTTP headers for Cloudflare Pages
+test/parse.test.mjs       parser tests (node:test)
 ```
 
+- **Stack:** React 18 + Vite 5, no UI framework, no animation library
 - **Fonts:** Outfit (body) + DM Mono (labels)
 - **Palette:** teal accent `#0F766E` (light) / `#2dd4bf` (dark) on warm neutrals
-- **No framework:** search/filter is client-side over a small JSON blob
+- **Search/filter/theme:** client-side in React, no backend
 - **Accessible:** keyboard focus, reduced motion, WCAG AA contrast
 
 ## Development

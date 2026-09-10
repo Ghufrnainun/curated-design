@@ -15,8 +15,8 @@ resources/
 └── prompts.md
 ```
 
-`npm run build` parses those files into `src/data.js`, which the static page
-renders. `npm test` validates the parser. No database, no CMS, no backend.
+`npm run build` parses those files into `src/data.js`, which the React app
+imports. `npm test` validates the parser. No database, no CMS, no backend.
 
 ## Adding or editing a resource
 

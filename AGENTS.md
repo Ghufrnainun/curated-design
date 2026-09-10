@@ -25,7 +25,7 @@ Single-context: one `CONTEXT.md` + `docs/adr/` at the repo root. See
 
 Static curated directory of design resources. Content is plain Markdown under
 `resources/` (one file per category). `scripts/build.mjs` parses it into
-`src/data.js`. The page is vanilla HTML/CSS/JS with no framework.
+`src/data.js`, imported by a React + Vite app. `vite build` outputs `dist/`.
 
 ## Commands
 
