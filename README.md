@@ -50,8 +50,8 @@ test/parse.test.mjs       parser tests (node:test)
 ## Development
 
 ```bash
-git clone https://github.com/Ghufrnainun/design-ghuf-app.git
-cd design-ghuf-app
+git clone https://github.com/Ghufrnainun/curated-design.git
+cd curated-design
 
 npm test        # parser tests
 npm run build   # regenerate src/data.js from resources/*.md

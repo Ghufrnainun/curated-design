@@ -1,5 +1,5 @@
 {
-  "name": "design-ghuf-app",
+  "name": "curated-design",
   "version": "3.0.0",
   "description": "Curated directory of design resources: component libraries, design systems, UI inspiration, developer tools, and AI design prompts.",
   "private": true,
@@ -22,6 +22,6 @@
   "keywords": ["design", "resources", "components", "design-systems", "ui", "curated"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ghufrnainun/design-ghuf-app.git"
+    "url": "git+https://github.com/Ghufrnainun/curated-design.git"
   }
 }

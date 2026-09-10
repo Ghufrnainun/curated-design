@@ -59,8 +59,8 @@ Guidelines:
 ## Running locally
 
 ```bash
-git clone https://github.com/Ghufrnainun/design-ghuf-app.git
-cd design-ghuf-app
+git clone https://github.com/Ghufrnainun/curated-design.git
+cd curated-design
 
 npm test
 npm run build
