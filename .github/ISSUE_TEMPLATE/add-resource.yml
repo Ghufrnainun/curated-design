@@ -1,0 +1,37 @@
+name: Add a resource
+description: Suggest adding a design resource to the directory
+title: "Add: "
+labels: [enhancement]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      description: The name to display.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Canonical homepage of the resource.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Component Libraries
+        - Design Systems
+        - Design Inspiration
+        - Developer Tools
+        - Prompts
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why add it?
+      description: One or two sentences on why it belongs in the directory.
+      placeholder: "e.g. It is a widely used open-source animated component library."

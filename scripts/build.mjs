@@ -1,0 +1,54 @@
+// build.mjs — parse resources/*.md into src/data.js (window.DESIGN_DATA).
+// Runs in CI and locally. No dependencies beyond Node stdlib.
+import fs from "node:fs";
+import path from "node:path";
+import url from "node:url";
+import { parseDirectory } from "./parse.mjs";
+
+const ROOT = path.resolve(path.dirname(url.fileURLToPath(import.meta.url)), "..");
+const RES_DIR = path.join(ROOT, "resources");
+// map resource filename -> output category key (also used by the UI in this order)
+const CATEGORIES = [
+  ["component-libraries.md", "Component Libraries"],
+  ["design-systems.md", "Design Systems"],
+  ["design-inspiration.md", "Design Inspiration"],
+  ["developer-tools.md", "Developer Tools"],
+  ["prompts.md", "Prompts"],
+];
+
+function build() {
+  const parsed = parseDirectory(RES_DIR);
+  const data = {};
+  for (const [file, key] of CATEGORIES) {
+    const p = parsed[file];
+    if (!p) throw new Error(`Missing resource file: ${file}`);
+    // flatten groups; subcategory name becomes an optional label
+    const items = [];
+    for (const g of p.groups) {
+      for (const it of g.items) {
+        items.push({
+          name: it.name,
+          url: it.url,
+          ...(g.name !== "General" ? { group: g.name } : {}),
+          ...(it.note ? { note: it.note } : {}),
+        });
+      }
+    }
+    data[key] = items;
+  }
+  const payload = `window.DESIGN_DATA = ${JSON.stringify(data, null, 2)};\n`;
+  const outDir = path.join(ROOT, "src");
+  fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, "data.js"), payload, "utf8");
+  const total = Object.values(data).reduce((s, arr) => s + arr.length, 0);
+  console.log(`Built src/data.js (${total} entries):`);
+  for (const [file, key] of CATEGORIES) console.log(`  ${key}: ${data[key].length}`);
+  return total;
+}
+
+export default build;
+
+// CLI: `node scripts/build.mjs`
+if (import.meta.url === url.pathToFileURL(process.argv[1]).href) {
+  build();
+}

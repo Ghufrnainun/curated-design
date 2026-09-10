@@ -4,71 +4,77 @@ Thank you for helping improve this curated directory of design tools.
 
 ## How the site works
 
-This is a static site, no framework. Three source files in `src/`:
+Content lives in plain Markdown under `resources/`, one file per category:
 
-- `src/index.html` — page markup
-- `src/app.js` — render, search, theme (vanilla JS)
-- `src/styles.css` — styling (dark/light, responsive)
-
-Data lives in `src/data.js` as `window.DESIGN_DATA`, a flat JSON object keyed
-by category. `build.py` regenerates it from the Obsidian vault:
-
-```bash
-pip install -r requirements.txt 2>/dev/null || true
-python3 build.py      # writes src/data.js
+```text
+resources/
+├── component-libraries.md
+├── design-systems.md
+├── design-inspiration.md
+├── developer-tools.md
+└── prompts.md
 ```
 
-## Getting started
+`npm run build` parses those files into `src/data.js`, which the static page
+renders. `npm test` validates the parser. No database, no CMS, no backend.
+
+## Adding or editing a resource
+
+1. Open the matching file under `resources/`.
+2. Add one line for the resource:
+
+   ```md
+   - [Name](https://example.com)
+   ```
+
+3. Optional: create a subcategory by adding a `##` heading above a group of
+   links:
+
+   ```md
+   ## Animated
+
+   - [Motion Primitives](https://motion-primitives.com/)
+   - [Hover.dev](https://www.hover.dev/)
+   ```
+
+4. Check that the URL is the real resource, not a link to a post about it.
+5. Run the checks locally:
+
+   ```bash
+   npm test        # parser tests
+   npm run build   # regenerates src/data.js
+   ```
+
+6. Open a pull request. The title should summarize the change (for example,
+   `Add XYZ to Component Libraries`).
+
+Guidelines:
+
+- Keep entries as one line: name + URL. Optionally add a short note in
+  parentheses after the URL.
+- Do not add resources that are paywalled, invitation-only, or broken.
+- Prefer the canonical homepage URL over a deep link.
+- Check the list for existing entries before adding, to avoid duplicates.
+
+## Running locally
 
 ```bash
 git clone https://github.com/Ghufrnainun/design-ghuf-app.git
 cd design-ghuf-app
 
-# regenerate data from the vault (only works on the VPS where the vault lives)
-python3 build.py
-
-# preview locally (serves src/ on port 8137)
-npm run preview
-# or:
-python3 -m http.server 8137 --bind 127.0.0.1 --directory src
+npm test
+npm run build
+npm run preview   # serves src/ at http://127.0.0.1:8137
 ```
 
-Then open http://127.0.0.1:8137 in a browser.
+## Policy and scope
 
-## Editing the UI
+- The directory tracks libraries, design systems, inspiration sites,
+  developer tools, and AI design prompts. Anything off-scope is rejected.
+- Content is reviewed before merge. Small, focused PRs get merged fastest.
+- By contributing you agree your contribution is licensed under the same
+  MIT license as the repository.
 
-- All text on the page should follow the antislop rules: no em dash `—`, use
-  commas/colons instead; no generic AI copy; sentence case.
-- Every interactive element must work. No dead links or buttons (R-26).
-- Both light and dark themes must feel like the same page; only colors change.
-- Respect `prefers-reduced-motion`. Responsive down to mobile.
-- Fonts: Outfit (body) + DM Mono (labels). Palettes:
-  - light `--bg:#fafaf7 --text:#1a1a18 --accent:#0f766e`
-  - dark `--bg:#0a0a09 --text:#ededeb --accent:#2dd4bf`
-- No emoji icons; the favicon is the only image asset.
+## Need help?
 
-## Editing data
-
-`src/data.js` is generated. Do not hand-edit it; it gets overwritten on the
-next `python3 build.py`. Edit the curated content in the vault (or the source
-notes) and regenerate.
-
-If you do not have the vault, you can add an entry by editing `build.py`
-directly to include the resource, then regenerate.
-
-## Deploy
-
-Pushing to `main` triggers GitHub Actions which deploys to Cloudflare Pages
-(`design-ghuf-app`) at https://design.ghuf.app. Preview environment: any
-branch other than `main` creates a preview deployment on `.pages.dev`.
-
-## Issues & PRs
-
-- File an issue for bugs or missing resources.
-- PRs welcome. Keep changes small and focused.
-- Before submitting, verify locally with `python3 build.py` and open the
-  preview. Ensure the rendered page has no console errors.
-
-## License
-
-MIT. See [LICENSE](LICENSE).
+Open an issue with the `question` label, or ask in the PR itself.

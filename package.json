@@ -1,11 +1,12 @@
 {
   "name": "design-ghuf-app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Curated directory of design resources: component libraries, design systems, UI inspiration, developer tools, and AI design prompts.",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "python3 build.py",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
     "preview": "python3 -m http.server 8137 --bind 127.0.0.1 --directory src"
   },
   "license": "MIT",

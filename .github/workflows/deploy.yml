@@ -14,18 +14,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Regenerate data from vault notes
-        run: python3 build.py
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
-      - name: Verify generated data is valid
+      - name: Install
+        run: npm ci || npm install
+
+      - name: Test
+        run: npm test
+
+      - name: Build data from markdown
+        run: npm run build
+
+      - name: Verify generated data
         run: |
-          python3 - <<'EOF'
-          import json, re
-          js = open('src/data.js').read()
-          d = json.loads(re.sub(r'^window\.DESIGN_DATA\s*=\s*', '', js).rstrip(';'))
-          assert d and all(isinstance(v, list) for v in d.values()), "data.js malformed"
-          print(f"OK: {sum(len(v) for v in d.values())} entries")
-          EOF
+          node -e "
+            const fs = require('fs');
+            const js = fs.readFileSync('src/data.js', 'utf8');
+            const m = js.match(/window\.DESIGN_DATA = (.*);/s);
+            if (!m) throw new Error('data.js malformed');
+            const d = JSON.parse(m[1]);
+            const total = Object.values(d).reduce((s, a) => s + a.length, 0);
+            console.log('OK:', total, 'entries');
+            if (total < 100) throw new Error('too few entries');
+          "
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3

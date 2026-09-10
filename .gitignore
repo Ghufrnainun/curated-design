@@ -3,3 +3,6 @@ dist/
 .wrangler/
 *.log
 __pycache__/
+
+# generated at build time (npm run build); not committed
+src/data.js
