@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import DESIGN_DATA from "./data.js";
+import { filterData, ALL_LABEL } from "./filter.js";
 
 const ORDER = [
   "Component Libraries",
@@ -8,8 +9,6 @@ const ORDER = [
   "Developer Tools",
   "Prompts",
 ];
-
-const ALL = "All";
 
 function host(u) {
   try {
@@ -76,9 +75,8 @@ function Card({ item }) {
 
 export default function App() {
   const [query, setQuery] = useState("");
-  const [cat, setCat] = useState(ALL);
+  const [cat, setCat] = useState(ALL_LABEL);
   const [dark, toggleTheme] = useTheme();
-  const q = query.trim().toLowerCase();
 
   const totals = useMemo(
     () => Object.fromEntries(ORDER.map((c) => [c, (DESIGN_DATA[c] || []).length])),
@@ -89,24 +87,10 @@ export default function App() {
     [totals],
   );
 
-  const matches = useMemo(() => {
-    const out = {};
-    for (const c of ORDER) {
-      const items = DESIGN_DATA[c] || [];
-      const keep =
-        (cat === ALL || c === cat) &&
-        (q
-          ? items.filter(
-              (it) =>
-                it.name.toLowerCase().includes(q) ||
-                it.url.toLowerCase().includes(q),
-            )
-          : items);
-      if (Array.isArray(keep)) out[c] = keep;
-      else out[c] = items;
-    }
-    return out;
-  }, [q, cat]);
+  const matches = useMemo(
+    () => filterData(DESIGN_DATA, ORDER, cat, query),
+    [cat, query],
+  );
 
   const shownCount = Object.values(matches).reduce((s, a) => s + a.length, 0);
   const activeCats = ORDER.filter((c) => (matches[c] || []).length);
@@ -161,9 +145,9 @@ export default function App() {
           <div className="chips">
             <button
               type="button"
-              className={`chip ${cat === ALL ? "chip-active" : ""}`}
-              onClick={() => setCat(ALL)}
-              aria-pressed={cat === ALL}
+              className={`chip ${cat === ALL_LABEL ? "chip-active" : ""}`}
+              onClick={() => setCat(ALL_LABEL)}
+              aria-pressed={cat === ALL_LABEL}
             >
               All <span className="chip-count">{total}</span>
             </button>
@@ -179,13 +163,13 @@ export default function App() {
               </button>
             ))}
           </div>
-          {(q || cat !== ALL) && (
+          {(query || cat !== ALL_LABEL) && (
             <button
               type="button"
               className="reset"
               onClick={() => {
                 setQuery("");
-                setCat(ALL);
+                setCat(ALL_LABEL);
               }}
             >
               Clear filters
