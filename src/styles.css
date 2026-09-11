@@ -192,7 +192,7 @@ body::before {
 
 /* ---- hero ---- */
 .hero {
-  padding: 56px 0 32px;
+  padding-block: 56px 32px;
 }
 
 .hero .label {
@@ -491,10 +491,13 @@ body::before {
     width: 100%;
   }
   .hero {
-    padding: 40px 0 24px;
+    padding-block: 40px 24px;
   }
   .grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    /* mobile: deterministic 2 columns. minmax(0,1fr) so long nowrap names
+       can't stretch the track past the viewport; ellipsis handles overflow */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
   }
 }
 
