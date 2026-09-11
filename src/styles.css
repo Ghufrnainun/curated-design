@@ -336,6 +336,21 @@ body::before {
   color: var(--color-text-tertiary);
 }
 
+/* ---- sub-groups ---- */
+.sec-group {
+  margin-bottom: 18px;
+}
+
+.group-title {
+  margin: 0 0 10px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
 /* ---- grid & cards ---- */
 .grid {
   display: grid;

@@ -20,4 +20,3 @@
 - [Steep](https://steep.app)
 - [Superpower](https://superpower.com)
 - [Crafted by GC](https://dala.craftedbygc.com)
-- [PatternCraft](https://patterncraft.fun/)

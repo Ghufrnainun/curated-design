@@ -116,8 +116,6 @@
 - [Hover.dev](https://www.hover.dev/)
 - [MicroInteractions UI](https://www.microinteractionsui.com/)
 - [Annnimate](https://annnimate.com/)
-- [React Bits](https://reactbits.dev)
-- [shadcn/ui](https://ui.shadcn.com)
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)

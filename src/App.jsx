@@ -207,17 +207,41 @@ export default function App() {
 }
 
 function Section({ cat, items, count }) {
+  // group items by optional `group` field, preserve order; items without group go to "General"
+  const groups = [];
+  const order = [];
+  for (const it of items) {
+    const g = it.group || "General";
+    if (!order.includes(g)) {
+      order.push(g);
+      groups.push({ name: g, items: [] });
+    }
+    groups[order.indexOf(g)].items.push(it);
+  }
   return (
     <section className="sec" id={cat.toLowerCase().replace(/[^a-z]+/g, "-")}>
       <div className="sec-head">
         <h2 className="sec-title">{cat}</h2>
         <span className="sec-count">/ {count}</span>
       </div>
-      <div className="grid">
-        {items.map((it) => (
-          <Card key={it.url} item={it} />
-        ))}
-      </div>
+      {order.length === 1 && order[0] === "General" ? (
+        <div className="grid">
+          {items.map((it) => (
+            <Card key={it.url} item={it} />
+          ))}
+        </div>
+      ) : (
+        groups.map((g) => (
+          <div key={g.name} className="sec-group">
+            <h3 className="group-title">{g.name}</h3>
+            <div className="grid">
+              {g.items.map((it) => (
+                <Card key={it.url} item={it} />
+              ))}
+            </div>
+          </div>
+        ))
+      )}
     </section>
   );
 }
