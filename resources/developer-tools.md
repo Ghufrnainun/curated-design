@@ -31,6 +31,13 @@
 
 - [Fonttrio](https://www.fonttrio.xyz/)
 
+## DESIGN.md for AI coding
+
+- [Refero Styles](https://styles.refero.design) — DESIGN.md examples for AI agents
+- [TypeUI](https://typeui.sh) — open-source CLI to generate/manage DESIGN.md & SKILL.md for AI coding
+- [designmd.supply](https://designmd.supply) — turn any public domain into an AI-ready DESIGN.md
+- [Neuform](https://neuform.ai) — AI landing page builder with remix templates
+
 ## More
 
 - [openmotion.design](https://openmotion.design/)
