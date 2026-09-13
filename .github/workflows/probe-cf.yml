@@ -1,0 +1,24 @@
+name: Probe CF zones
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check zone ghufronainun.tech
+        env:
+          CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          echo "=== zone lookup ghufronainun.tech ==="
+          curl -s "https://api.cloudflare.com/client/v4/zones?name=ghufronainun.tech" \
+            -H "Authorization: Bearer $CF_TOKEN"
+          echo ""
+          echo "=== all zones (per_page=20) ==="
+          curl -s "https://api.cloudflare.com/client/v4/zones?per_page=20" \
+            -H "Authorization: Bearer $CF_TOKEN" > /tmp/zones.json
+          cat /tmp/zones.json | jq -r '.success, (.result[]? | " - \(.name) \(.id[0:8]) \(.status)")'
+          echo "=== pages custom domains on design-ghuf-app ==="
+          curl -s "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/design-ghuf-app/domains" \
+            -H "Authorization: Bearer $CF_TOKEN" | jq -r '.success, (.result[]? | " - \(.name) \(.status)")'
