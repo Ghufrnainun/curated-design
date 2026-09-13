@@ -1,0 +1,37 @@
+name: Add Pages custom domain
+on:
+  workflow_dispatch:
+
+jobs:
+  add-domain:
+    runs-on: ubuntu-latest
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      ZONE: 0abf1f8d543f05649578bc28f330abf1
+      PROJECT: design-ghuf-app
+      DOMAIN: design.ghufronainun.tech
+    steps:
+      - name: Add custom domain to Pages project
+        run: |
+          echo "=== POST domain ==="
+          curl -s -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"name\": \"$DOMAIN\"}" | jq .
+      - name: List domains after add
+        run: |
+          curl -s \
+            "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            -H "Authorization: Bearer $CF_TOKEN" | jq -r '.result[]? | "\(.name) \(.status)"'
+      - name: Ensure DNS CNAME exists
+        run: |
+          echo "=== existing CNAME for design ==="
+          curl -s "https://api.cloudflare.com/client/v4/zones/$ZONE/dns_records?type=CNAME&name=$DOMAIN" \
+            -H "Authorization: Bearer $CF_TOKEN" | jq -r '.result[]? | "\(.name) -> \(.content) \(.proxied)"'
+          echo "=== add CNAME if missing ==="
+          curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE/dns_records" \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"type\":\"CNAME\",\"name\":\"design\",\"content\":\"design-ghuf-app.pages.dev\",\"proxied\":true,\"comment\":\"Pages custom domain\"}" | jq -r '.success, (.result | if . then "\(.name) -> \(.content)" else empty end)'
