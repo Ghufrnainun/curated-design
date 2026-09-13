@@ -99,8 +99,8 @@ export default function App() {
     <div className="app">
       <header className="head">
         <div className="wrap head-top">
-          <a className="logo" href="/">
-            design<span className="logo-accent">.ghuf.app</span>
+          <a className="logo" href="/" aria-label="Curated design home">
+            curated<span className="logo-accent">.design</span>
           </a>
           <div className="head-controls">
             <div className="search-wrap">
@@ -132,8 +132,8 @@ export default function App() {
         </div>
 
         <div className="wrap hero">
-          <span className="label">Curated directory</span>
-          <h1>Design tools, curated.</h1>
+          <span className="label">Curated design</span>
+          <h1>Curated design tools.</h1>
           <p className="sub">
             Component libraries, design systems, UI inspiration, dev tools and AI
             design prompts, all in one place. Every card links straight to the
@@ -192,7 +192,7 @@ export default function App() {
       <footer className="wrap foot">
         <p>
           <a
-            href="https://github.com/Ghufrnainun/design-ghuf-app"
+            href="https://github.com/Ghufrnainun/curated-design"
             target="_blank"
             rel="noopener noreferrer"
           >
