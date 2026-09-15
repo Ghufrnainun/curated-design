@@ -8,6 +8,7 @@
 - [Godly](https://godly.website/)
 - [SiteInspire](https://siteinspire.com/)
 - [Curated Design](https://curated.design/)
+- [CollectUI](https://collectui.com)
 - [Landing Love](https://landing.love/)
 - [Recent Design](https://recent.design/)
 - [Noiced](https://noiced.com/)

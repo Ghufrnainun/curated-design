@@ -37,6 +37,10 @@
 - [TypeUI](https://typeui.sh) — open-source CLI to generate/manage DESIGN.md & SKILL.md for AI coding
 - [designmd.supply](https://designmd.supply) — turn any public domain into an AI-ready DESIGN.md
 - [Neuform](https://neuform.ai) — AI landing page builder with remix templates
+- [DesignMD](https://designmd.me) — generate DESIGN.md files with AI
+- [getdesign.md](https://getdesign.md) — DESIGN.md collection for AI coding agents
+- [Design.MD Store](https://designmd-store.com) — AI-ready design system files
+- [Niblet](https://niblet.com) — UI design references for AI coding agents
 
 ## More
 
