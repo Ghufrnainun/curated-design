@@ -127,6 +127,7 @@
 
 - [ui.watermelon.sh — 600+ Free React Components](https://ui.watermelon.sh/)
 - [gkurt.com/tegaki — Animated Handwriting from Any Font](https://gkurt.com/tegaki/)
+- [koboyo.com/page-mascot — Mascot that follows your cursor](https://koboyo.com/page-mascot) — React mascot, blinks when poked, 52 characters, agent skill draws more
 - [balsa-ui.com — Agent-Native UI Library](https://balsa-ui.com/)
 - [Motion-Primitives](https://motion-primitives.com/)
 - [Hover.dev](https://www.hover.dev/)
