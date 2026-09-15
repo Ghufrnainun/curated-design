@@ -31,6 +31,11 @@
 
 - [Fonttrio](https://www.fonttrio.xyz/)
 
+## Directories
+
+- [DesEngs](https://desengs.com/) — resources for design engineers: inspiration, minimal sites, designers to follow
+- [Design Engineer Tools](https://designengineer.tools/) — directory of design engineering tools (20+ categories)
+
 ## DESIGN.md for AI coding
 
 - [Refero Styles](https://styles.refero.design) — DESIGN.md examples for AI agents
@@ -48,3 +53,14 @@
 - [Gooey (Jakub Antalik)](https://gooey.jakubantalik.com/)
 - [Kitbitz](https://kitbitz.art/)
 - [Renotch](https://github.com/yosaiy/renotch)
+- [Animations.dev](https://animations.dev) — animation tutorials & components
+- [Easing.dev](https://www.easing.dev) — easing curve presets & generators
+- [UI Land](https://ui.land) — animation library & playground
+- [Fancy Components](https://www.fancycomponents.dev) — animation components
+- [Interfaces.dev](https://interfaces.dev) — animated UI components
+- [cmdk](https://github.com/dip/cmdk) — fast command palette (React)
+- [Morphrig](https://morphrig.dev) — morphing/motion playground
+- [UI Playbook](https://uiplaybook.dev) — UI patterns & interactions
+- [UI Camera](https://ui.camera) — UI animation reference capture
+- [CRD UI](https://crd-ui.juanda.co/) — component library
+- [DesignEng Club](https://designeng.club/) — design engineering community
