@@ -99,7 +99,7 @@
 - [Carbon (IBM)](https://carbondesignsystem.com/)
 - [Lightning (Salesforce)](https://lightningdesignsystem.com/)
 - [Ring UI (JetBrains)](https://jetbrains.github.io/ring-ui/)
-- [HIG (Autodesk)](https://hig.autodesk.com/)
+- [HIG (Autodesk)](https://www.autodesk.com/design-compass/hig)
 
 ## F. Mobile / Cross-platform
 
