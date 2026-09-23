@@ -17,11 +17,28 @@ directly at the resource itself, grouped by category:
 
 | Category | Count |
 |---|---|
-| Component Libraries | 112 |
-| Design Inspiration | 77 |
-| Design Systems | 21 |
-| Developer Tools | 5 |
-| AI Design Prompts | 4 |
+| Component Libraries | 164 |
+| Design Inspiration | 76 |
+| Developer Tools | 41 |
+| Design Systems | 20 |
+| AI Design Prompts | 11 |
+
+## For AI agents / LLMs
+
+The full catalog is published as plain text for agents to fetch
+
+```text
+llms.txt         index of categories (standard llms.txt format)
+llms-full.txt    every resource inline: [Name](url) — note
+```
+
+- `https://design.ghuf.app/llms.txt` — category index, points to the full list
+- `https://design.ghuf.app/llms-full.txt` — all resources, grouped by category,
+  one per line, links straight to each source
+
+Both are regenerated on every build from `resources/*.md`, so they never go
+stale. Example agent usage: "fetch https://design.ghuf.app/llms-full.txt and
+find a React component library with shadcn-style blocks."
 
 ## Stack
 
