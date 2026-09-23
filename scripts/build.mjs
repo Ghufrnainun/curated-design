@@ -53,10 +53,46 @@ export default ${JSON.stringify(data, null, 2)};\n`;
   const outDir = path.join(ROOT, "src");
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, "data.js"), payload, "utf8");
+  writeLlms(data);
   const total = Object.values(data).reduce((s, arr) => s + arr.length, 0);
   console.log(`Built src/data.js (${total} entries):`);
   for (const [file, key] of CATEGORIES) console.log(`  ${key}: ${data[key].length}`);
   return total;
+}
+
+// llms.txt (index) + llms-full.txt (all resources inline) for LLM/agent fetching.
+function writeLlms(data) {
+  const base = "https://design.ghuf.app";
+  const index = [
+    "# Curated Design",
+    "",
+    "> Curated directory of design resources: component libraries, design systems,",
+    "> design inspiration, developer tools, and AI prompts. Each entry links straight",
+    "> to the source. Full list with all entries: https://design.ghuf.app/llms-full.txt",
+    "",
+    "## Categories",
+    "",
+  ];
+  const full = [
+    "# Curated Design — full resource list",
+    "",
+    "Curated directory of design resources. Grouped by category. Each line is",
+    "`[Name](url) — note`.",
+    "",
+  ];
+  for (const key of Object.keys(data)) {
+    const count = data[key].length;
+    index.push(`- [${key}](${base}): ${count} resources`);
+    full.push(`## ${key}`, "");
+    for (const it of data[key]) {
+      const note = it.note ? ` — ${it.note}` : "";
+      full.push(`- [${it.name}](${it.url})${note}`);
+    }
+    full.push("");
+  }
+  fs.writeFileSync(path.join(ROOT, "public", "llms.txt"), index.join("\n"), "utf8");
+  fs.writeFileSync(path.join(ROOT, "public", "llms-full.txt"), full.join("\n"), "utf8");
+  console.log(`Wrote public/llms.txt (${index.length} lines), public/llms-full.txt (${full.length} lines)`);
 }
 
 export default build;

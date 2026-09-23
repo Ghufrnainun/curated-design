@@ -49,6 +49,7 @@
 - [Grids by Obys](https://grids.obys.agency/)
 - [Viscose Carousel](https://github.com/Yousuf-developer/Viscose-carousel)
 - [Colorflow](https://colorflow.ls.graphics)
+- [Design Spells](https://designspells.com) — micro-interactions, easter eggs, and design details that feel like magic
 - [Ramps Studio](https://ramps.studio)
 
 ## Components & playgrounds
@@ -61,7 +62,6 @@
 - [Oedis UI](https://oedisui.pages.dev)
 - [Interface Craft](https://www.interfacecraft.dev/)
 - [Claude Directory](https://github.com/pulkitxm/claude-directory)
-- [Toolcraft](https://toolcraft.sh/)
 
 ## Productivity & dev tools
 

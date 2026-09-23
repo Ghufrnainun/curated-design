@@ -18,6 +18,7 @@
 ## B. Component Library Styled
 
 - [shadcn/ui](https://ui.shadcn.com/)
+- [ObsidianUI](https://obsidianui.dev) — React + Tailwind CSS components
 - [Chakra UI](https://chakra-ui.com/)
 - [Mantine](https://mantine.dev/)
 - [Ant Design](https://ant.design/)
@@ -115,7 +116,7 @@
 ## H. Lain-lain
 
 - [Ink (React CLI)](https://term.ink/)
-- [Toolcraft](https://toolcraft.dev/)
+- [Toolcraft](https://toolcraft.sh/)
 - [Stackshift](https://stackshift.dev/)
 - [Mosaic (Palantir)](https://blueprintjs.com/docs/blueprint/mosaic)
 - [Salt](https://salt-ds.com/)

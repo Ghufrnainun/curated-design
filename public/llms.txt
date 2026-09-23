@@ -1,0 +1,13 @@
+# Curated Design
+
+> Curated directory of design resources: component libraries, design systems,
+> design inspiration, developer tools, and AI prompts. Each entry links straight
+> to the source. Full list with all entries: https://design.ghuf.app/llms-full.txt
+
+## Categories
+
+- [Component Libraries](https://design.ghuf.app): 164 resources
+- [Design Systems](https://design.ghuf.app): 20 resources
+- [Design Inspiration](https://design.ghuf.app): 76 resources
+- [Developer Tools](https://design.ghuf.app): 41 resources
+- [Prompts](https://design.ghuf.app): 11 resources
