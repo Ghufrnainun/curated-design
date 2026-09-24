@@ -139,6 +139,23 @@
 - [DesEngs](https://desengs.com/) — resources for design engineers: inspiration, minimal sites, designers to follow
 - [Design Engineer Tools](https://designengineer.tools/) — directory of design engineering tools (20+ categories)
 
+## Quick tools & generators
+
+- [Shots](https://www.shots.so) — design mockup tool
+- [Rotato](https://rotato.app) — 3D mockup generator
+- [Animo](https://animos.app) — motion/animation tool
+- [Ditther](https://www.ditther.com) — dithering tool
+- [Asciinator](https://asciinator.app) — image to ASCII art
+- [ASC11](https://asc11.com) — ASCII art generator
+- [Dot Shader](https://iamnoman.com/dot) — dot pattern shader
+- [Gradientool](https://www.gradientool.com) — gradient presets
+- [Photogradient](https://photogradient.com) — photo gradient tool
+- [Grainrad](https://grainrad.com) — grain gradient generator
+- [Symbl](https://symbl.space) — minimal symbols
+- [UIFonts](https://www.uifonts.app) — UI font pairing tool
+- [Postspark](https://postspark.app) — social media design
+- [Zoxilsi Studio](https://studio.zoxilsi.cc) — browser design studio
+
 ## DESIGN.md for AI coding
 
 - [Refero Styles](https://styles.refero.design) — DESIGN.md examples for AI agents
