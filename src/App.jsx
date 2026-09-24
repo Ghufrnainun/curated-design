@@ -53,17 +53,25 @@ function MoonIcon() {
   );
 }
 
+function Favicon({ item }) {
+  const [err, setErr] = useState(false);
+  if (item.fav && !err) {
+    return (
+      <img src={item.fav} alt="" width="32" height="32" loading="lazy" onError={() => setErr(true)} />
+    );
+  }
+  return (
+    <span className="card-fallback" aria-hidden="true">
+      {(item.name || "?").trim().charAt(0).toUpperCase()}
+    </span>
+  );
+}
+
 function Card({ item }) {
   return (
     <a className="card" href={item.url} target="_blank" rel="noopener noreferrer">
       <span className="card-icon">
-        <img
-          src={`https://www.google.com/s2/favicons?domain=${host(item.url)}&sz=64`}
-          alt=""
-          width="32"
-          height="32"
-          loading="lazy"
-        />
+        <Favicon item={item} />
       </span>
       <span className="card-body">
         <span className="card-name">{item.name}</span>

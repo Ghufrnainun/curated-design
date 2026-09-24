@@ -25,11 +25,18 @@ function build() {
     const items = [];
     for (const g of p.groups) {
       for (const it of g.items) {
+        let fav = null;
+        try {
+          const host = new URL(it.url).hostname.replace(/^www\./, "");
+          const png = path.join(ROOT, "public", "favs", `${host}.png`);
+          if (fs.existsSync(png)) fav = `/favs/${host}.png`;
+        } catch {}
         items.push({
           name: it.name,
           url: it.url,
           ...(g.name !== "General" ? { group: g.name } : {}),
           ...(it.note ? { note: it.note } : {}),
+          ...(fav ? { fav } : {}),
         });
       }
     }

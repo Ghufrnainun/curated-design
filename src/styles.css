@@ -414,6 +414,13 @@ body::before {
   display: block;
 }
 
+.card-fallback {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
