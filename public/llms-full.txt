@@ -130,6 +130,12 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Motion Icons](https://motionicons.dev/)
 - [Skiper UI](https://skiper-ui.com/)
 - [Vengeance UI](https://www.vengenceui.com/)
+- [useLayouts](https://uselayouts.com) — — free animated React components (Framer Motion + Tailwind)
+- [Nexvyn UI](https://ui.nexvyn.dev) — — React component library (Next.js, TypeScript, Tailwind)
+- [Motion](https://motion.dev) — — animation library for React/JS/Vue (prev Framer Motion)
+- [Cult UI](https://cult-ui.com) — — animated component library
+- [Spell UI](https://spell.sh) — — sophisticated UI components for React + Tailwind
+- [Bencho](https://bencho.dev) — — interactive UI blocks, live playground
 - [Animmaster Lib](https://animmasterlib.dev/)
 - [Audio UI](https://audio-ui.xyz)
 - [Blob Avatar](https://blobatar.dev)

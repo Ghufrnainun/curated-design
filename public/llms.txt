@@ -6,7 +6,7 @@
 
 ## Categories
 
-- [Component Libraries](https://design.ghuf.app): 164 resources
+- [Component Libraries](https://design.ghuf.app): 170 resources
 - [Design Systems](https://design.ghuf.app): 20 resources
 - [Design Inspiration](https://design.ghuf.app): 76 resources
 - [Developer Tools](https://design.ghuf.app): 41 resources
