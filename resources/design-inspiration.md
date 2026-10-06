@@ -33,6 +33,8 @@
 - [Muzli](https://muz.li) — design inspiration feed
 - [Cosmos](https://www.cosmos.so) — design curation app
 - [Showcase](https://showcase.supply) — design showcase
+- [Minimal Gallery](https://minimal.gallery) — hand-picked web design inspiration
+- [Kage](https://kage.design) — UI inspiration mapped to prompts
 - [A1 Gallery](https://www.a1.gallery) — creative gallery
 - [Saaaspo](https://saaspo.com) — SaaS landing page gallery
 - [SearchSystem](https://www.searchsystem.co) — search UI gallery
@@ -48,6 +50,7 @@
 - [Component Gallery](https://component.gallery/)
 - [Deck Gallery](https://deck.gallery/)
 - [Screens Design](https://screensdesign.com/)
+- [AppShot Gallery](https://appshot.gallery) — mobile app screenshot inspiration
 - [GoodCart](https://goodcart.design) — ecommerce UI & UX inspiration
 - [Shoot](https://shoot.design) — app screenshot & icon inspiration
 - [PushKeen](https://pushkeen.ai) — push notification patterns from mobile apps

@@ -156,6 +156,12 @@
 - [UIFonts](https://www.uifonts.app) — UI font pairing tool
 - [Postspark](https://postspark.app) — social media design
 - [Zoxilsi Studio](https://studio.zoxilsi.cc) — browser design studio
+- [UIAble](https://uiable.com) — complete shadcn design system
+- [MicroKit UI](https://microkit.co) — copy-paste React and CSS micro-interactions
+- [Liquid Glass](https://glass.samasante.com) — live DOM refraction components
+- [Circle Loaders](https://circleloaders.dominikakissi.com) — monochrome agent-status animations
+- [Anime.js](https://animejs.com) — JavaScript animation engine
+- [Get ArtCraft](https://getartcraft.com/apps) — open-source creative apps
 
 ## DESIGN.md for AI coding
 
@@ -167,6 +173,7 @@
 - [getdesign.md](https://getdesign.md) — DESIGN.md collection for AI coding agents
 - [Design.MD Store](https://designmd-store.com) — AI-ready design system files
 - [Niblet](https://niblet.com) — UI design references for AI coding agents
+- [DESIGNmd](https://designmd.ai) — design systems as Markdown for AI coding
 
 ## More
 
