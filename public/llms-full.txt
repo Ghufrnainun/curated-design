@@ -236,6 +236,9 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Saaaspo](https://saaspo.com) — — SaaS landing page gallery
 - [SearchSystem](https://www.searchsystem.co) — — search UI gallery
 - [BP&O](https://bpando.org) — — branding & packaging inspiration
+- [Landdding](https://landdding.com) — — landing page inspiration
+- [Wonderlist](https://wonderlist.design) — — premium Figma design references
+- [WeDoFlow](https://wedoflow.com) — — 1300+ unique page references
 - [Navbar Gallery](https://navbar.gallery/)
 - [404s.design](https://www.404s.design/)
 - [Footer Design](https://footer.design/)
@@ -253,6 +256,9 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Fonts In Use](https://fontsinuse.com/)
 - [MNMM](https://mnmm.xyz/)
 - [Ogpedia](https://ogpedia.xyz/)
+- [Iconly](https://iconly.design) — — 900+ curated logos
+- [Font In Logo](https://fontinlogo.com) — — typefaces behind the best logos
+- [LogoToUse](https://logotouse.com) — — logo & identity references
 - [Fluid Shader](https://fluidshader.vercel.app/)
 - [Shader Gradient](https://shadergradient.co)
 - [Grainient](https://grainient.supply/)
@@ -262,6 +268,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Viscose Carousel](https://github.com/Yousuf-developer/Viscose-carousel)
 - [Colorflow](https://colorflow.ls.graphics)
 - [Design Spells](https://designspells.com) — — micro-interactions, easter eggs, and design details that feel like magic
+- [Motionin](https://motionin.design) — — motion & interaction inspiration
 - [Ramps Studio](https://ramps.studio)
 - [beUI Pro](https://pro.beui.dev/)
 - [Tweakcn](https://tweakcn.com/)
@@ -417,6 +424,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Humans 3.0](https://humans.wannathis.one) — — 3D human illustrations
 - [DesEngs](https://desengs.com/) — — resources for design engineers: inspiration, minimal sites, designers to follow
 - [Design Engineer Tools](https://designengineer.tools/) — — directory of design engineering tools (20+ categories)
+- [Modulify](https://modulify.ai/templates) — — 100+ website templates
 - [Shots](https://www.shots.so) — — design mockup tool
 - [Rotato](https://rotato.app) — — 3D mockup generator
 - [Animo](https://animos.app) — — motion/animation tool

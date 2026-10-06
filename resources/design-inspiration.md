@@ -37,6 +37,9 @@
 - [Saaaspo](https://saaspo.com) — SaaS landing page gallery
 - [SearchSystem](https://www.searchsystem.co) — search UI gallery
 - [BP&O](https://bpando.org) — branding & packaging inspiration
+- [Landdding](https://landdding.com) — landing page inspiration
+- [Wonderlist](https://wonderlist.design) — premium Figma design references
+- [WeDoFlow](https://wedoflow.com) — 1300+ unique page references
 - [Navbar Gallery](https://navbar.gallery/)
 - [404s.design](https://www.404s.design/)
 - [Footer Design](https://footer.design/)
@@ -57,6 +60,9 @@
 - [Fonts In Use](https://fontsinuse.com/)
 - [MNMM](https://mnmm.xyz/)
 - [Ogpedia](https://ogpedia.xyz/)
+- [Iconly](https://iconly.design) — 900+ curated logos
+- [Font In Logo](https://fontinlogo.com) — typefaces behind the best logos
+- [LogoToUse](https://logotouse.com) — logo & identity references
 
 ## Effects, shaders & experiments
 
@@ -69,6 +75,7 @@
 - [Viscose Carousel](https://github.com/Yousuf-developer/Viscose-carousel)
 - [Colorflow](https://colorflow.ls.graphics)
 - [Design Spells](https://designspells.com) — micro-interactions, easter eggs, and design details that feel like magic
+- [Motionin](https://motionin.design) — motion & interaction inspiration
 - [Ramps Studio](https://ramps.studio)
 
 ## Components & playgrounds

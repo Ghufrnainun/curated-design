@@ -138,6 +138,7 @@
 
 - [DesEngs](https://desengs.com/) — resources for design engineers: inspiration, minimal sites, designers to follow
 - [Design Engineer Tools](https://designengineer.tools/) — directory of design engineering tools (20+ categories)
+- [Modulify](https://modulify.ai/templates) — 100+ website templates
 
 ## Quick tools & generators
 
