@@ -48,6 +48,11 @@
 - [Component Gallery](https://component.gallery/)
 - [Deck Gallery](https://deck.gallery/)
 - [Screens Design](https://screensdesign.com/)
+- [GoodCart](https://goodcart.design) — ecommerce UI & UX inspiration
+- [Shoot](https://shoot.design) — app screenshot & icon inspiration
+- [PushKeen](https://pushkeen.ai) — push notification patterns from mobile apps
+- [ABTest Design](https://abtest.design) — A/B test design inspiration
+- [Morphin Inspirations](https://morphin.dev/inspirations) — UI inspiration from real products
 
 ## Brand, identity & type
 
