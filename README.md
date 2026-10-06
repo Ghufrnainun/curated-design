@@ -18,10 +18,10 @@ directly at the resource itself, grouped by category:
 | Category | Count |
 |---|---|
 | Component Libraries | 170 |
-| Design Inspiration | 107 |
-| Developer Tools | 156 |
+| Design Inspiration | 110 |
+| Developer Tools | 163 |
 | Design Systems | 20 |
-| AI Design Prompts | 11 |
+| AI Design Prompts | 12 |
 
 ## For AI agents / LLMs
 
