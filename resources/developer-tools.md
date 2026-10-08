@@ -139,6 +139,9 @@
 - [DesEngs](https://desengs.com/) — resources for design engineers: inspiration, minimal sites, designers to follow
 - [Design Engineer Tools](https://designengineer.tools/) — directory of design engineering tools (20+ categories)
 - [Modulify](https://modulify.ai/templates) — 100+ website templates
+- [SkillsMP](https://skillsmp.com/) — marketplace for Claude, Codex, and agent skills
+- [GitHub Skills Search](https://github.com/search?q=skills&type=repositories) — discover relevant agent skills repositories
+- [GitHub Trending Developers](https://github.com/trending/developers) — discover trending developer tools and creators
 
 ## Quick tools & generators
 
@@ -174,6 +177,15 @@
 - [Design.MD Store](https://designmd-store.com) — AI-ready design system files
 - [Niblet](https://niblet.com) — UI design references for AI coding agents
 - [DESIGNmd](https://designmd.ai) — design systems as Markdown for AI coding
+- [Impeccable](https://impeccable.style/) — design vocabulary and anti-slop frontend skill for agents
+- [Three.js Skills](https://github.com/cloudai-x/threejs-skills) — Three.js knowledge base skills for AI coding agents
+
+## AI creative & MCP tools
+
+- [Higgsfield](https://higgsfield.ai/) — AI image and video generation suite with MCP
+- [Brag](https://github.com/latent-spaces/brag) — open-source product demo video generator
+- [MCP for Blender](https://github.com/ahujasid/mcp-for-blender) — Blender integration for Claude and MCP clients
+- [OpenAI Dots](https://openai.com/index/introducing-dots/) — Astra 6 visual workflow for presentations and 3D creation
 
 ## More
 
