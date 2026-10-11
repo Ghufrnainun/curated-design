@@ -138,6 +138,7 @@
 - [Rare UI](https://rareui.com)
 - [React Bits](https://reactbits.dev)
 - [Evil Charts](https://evilcharts.com)
+- [Evil Buttons](https://evilbuttons.com) — animated shadcn/ui components with Motion
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)

@@ -11,6 +11,7 @@
 - [Jiro Build](https://jiro.build/) (392 prompts)
 - [SceneAI](https://sceneai.art/) (31 prompts)
 - [ScrollTide](https://scrolltide.co) — 600+ complete website prompts and design briefs
+- [Prompt Motion](https://prompt-motion.com/) — motion video references with prompts and skills behind them
 
 ## Guides
 

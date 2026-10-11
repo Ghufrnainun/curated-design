@@ -117,6 +117,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Rare UI](https://rareui.com)
 - [React Bits](https://reactbits.dev)
 - [Evil Charts](https://evilcharts.com)
+- [Evil Buttons](https://evilbuttons.com) — — animated shadcn/ui components with Motion
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)
@@ -255,6 +256,12 @@ Curated directory of design resources. Grouped by category. Each line is
 - [PushKeen](https://pushkeen.ai) — — push notification patterns from mobile apps
 - [ABTest Design](https://abtest.design) — — A/B test design inspiration
 - [Morphin Inspirations](https://morphin.dev/inspirations) — — UI inspiration from real products
+- [Shotreel](https://shotreel.app/) — — turn screenshots into looping showcase videos
+- [DesignBookmark](https://designbookmark.com/) — — directory of 2,000+ design tools and resources
+- [Appllama](https://appllama.io/) — — screens and flows from top-grossing iOS apps
+- [Graphical](https://graphicalui.com/) — — create visual themes and interfaces with coding agents
+- [Drawably](https://drawably.dev/) — — hand-drawn UI controls
+- [Amicons](https://amicons.design/) — — friendly icon library for creators and teams
 - [Are.na](https://are.na/)
 - [Posts.design](https://posts.design/)
 - [Logosystem](https://logosystem.co/)
@@ -498,6 +505,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Jiro Build](https://jiro.build/) — (392 prompts)
 - [SceneAI](https://sceneai.art/) — (31 prompts)
 - [ScrollTide](https://scrolltide.co) — — 600+ complete website prompts and design briefs
+- [Prompt Motion](https://prompt-motion.com/) — — motion video references with prompts and skills behind them
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [ChatGPT Personas](https://github.com/f/awesome-chatgpt-prompts) — (6 personas)

@@ -17,11 +17,11 @@ directly at the resource itself, grouped by category:
 
 | Category | Count |
 |---|---|
-| Component Libraries | 170 |
-| Design Inspiration | 110 |
+| Component Libraries | 171 |
+| Design Inspiration | 116 |
 | Developer Tools | 172 |
 | Design Systems | 20 |
-| AI Design Prompts | 12 |
+| AI Design Prompts | 13 |
 
 ## For AI agents / LLMs
 

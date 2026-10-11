@@ -56,6 +56,12 @@
 - [PushKeen](https://pushkeen.ai) — push notification patterns from mobile apps
 - [ABTest Design](https://abtest.design) — A/B test design inspiration
 - [Morphin Inspirations](https://morphin.dev/inspirations) — UI inspiration from real products
+- [Shotreel](https://shotreel.app/) — turn screenshots into looping showcase videos
+- [DesignBookmark](https://designbookmark.com/) — directory of 2,000+ design tools and resources
+- [Appllama](https://appllama.io/) — screens and flows from top-grossing iOS apps
+- [Graphical](https://graphicalui.com/) — create visual themes and interfaces with coding agents
+- [Drawably](https://drawably.dev/) — hand-drawn UI controls
+- [Amicons](https://amicons.design/) — friendly icon library for creators and teams
 
 ## Brand, identity & type
 
