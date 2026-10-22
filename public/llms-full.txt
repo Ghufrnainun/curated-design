@@ -18,7 +18,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Zag](https://zagjs.com/)
 - [Oruga UI](https://oruga-ui.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
-- [ObsidianUI](https://obsidianui.dev) — — React + Tailwind CSS components
+- [ObsidianUI](https://obsidianui.dev) — React + Tailwind CSS components
 - [Chakra UI](https://chakra-ui.com/)
 - [Mantine](https://mantine.dev/)
 - [Ant Design](https://ant.design/)
@@ -56,7 +56,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Shadcn Blocks](https://shadcnblocks.com)
 - [Shadcncraft](https://shadcncraft.com)
 - [Shadcn Studio](https://shadcnstudio.com)
-- [UI Layouts](https://www.ui-layouts.com/) — — 60+ accessible React, Next.js, and Tailwind CSS components
+- [UI Layouts](https://www.ui-layouts.com/) — 60+ accessible React, Next.js, and Tailwind CSS components
 - [Element Plus](https://element-plus.org/)
 - [Naive UI](https://www.naiveui.com/)
 - [Semi Design](https://semi.design/)
@@ -108,7 +108,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Evergreen](https://evergreen.segment.com/)
 - [ui.watermelon.sh — 600+ Free React Components](https://ui.watermelon.sh/)
 - [gkurt.com/tegaki — Animated Handwriting from Any Font](https://gkurt.com/tegaki/)
-- [koboyo.com/page-mascot — Mascot that follows your cursor](https://koboyo.com/page-mascot) — — React mascot, blinks when poked, 52 characters, agent skill draws more
+- [koboyo.com/page-mascot — Mascot that follows your cursor](https://koboyo.com/page-mascot) — React mascot, blinks when poked, 52 characters, agent skill draws more
 - [balsa-ui.com — Agent-Native UI Library](https://balsa-ui.com/)
 - [Motion-Primitives](https://motion-primitives.com/)
 - [Hover.dev](https://www.hover.dev/)
@@ -118,8 +118,8 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Rare UI](https://rareui.com)
 - [React Bits](https://reactbits.dev)
 - [Evil Charts](https://evilcharts.com)
-- [Evil Buttons](https://evilbuttons.com) — — animated shadcn/ui components with Motion
-- [Number Flow](https://number-flow.barvian.me/) — — accessible animated number component for React
+- [Evil Buttons](https://evilbuttons.com) — animated shadcn/ui components with Motion
+- [Number Flow](https://number-flow.barvian.me/) — accessible animated number component for React
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)
@@ -133,12 +133,12 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Motion Icons](https://motionicons.dev/)
 - [Skiper UI](https://skiper-ui.com/)
 - [Vengeance UI](https://www.vengenceui.com/)
-- [useLayouts](https://uselayouts.com) — — free animated React components (Framer Motion + Tailwind)
-- [Nexvyn UI](https://ui.nexvyn.dev) — — React component library (Next.js, TypeScript, Tailwind)
-- [Motion](https://motion.dev) — — animation library for React/JS/Vue (prev Framer Motion)
-- [Cult UI](https://cult-ui.com) — — animated component library
-- [Spell UI](https://spell.sh) — — sophisticated UI components for React + Tailwind
-- [Bencho](https://bencho.dev) — — interactive UI blocks, live playground
+- [useLayouts](https://uselayouts.com) — free animated React components (Framer Motion + Tailwind)
+- [Nexvyn UI](https://ui.nexvyn.dev) — React component library (Next.js, TypeScript, Tailwind)
+- [Motion](https://motion.dev) — animation library for React/JS/Vue (prev Framer Motion)
+- [Cult UI](https://cult-ui.com) — animated component library
+- [Spell UI](https://spell.sh) — sophisticated UI components for React + Tailwind
+- [Bencho](https://bencho.dev) — interactive UI blocks, live playground
 - [Animmaster Lib](https://animmasterlib.dev/)
 - [Audio UI](https://audio-ui.xyz)
 - [Blob Avatar](https://blobatar.dev)
@@ -220,30 +220,30 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Indexed Graphics](https://indexed.graphics/)
 - [Uiinspoo](https://uiinspoo.com/)
 - [Webinspoo](https://webinspoo.com/)
-- [Refero](https://refero.design) — — design inspiration gallery
-- [Lapa Ninja](https://www.lapa.ninja) — — landing page gallery
-- [Httpster](https://httpster.net) — — web design inspiration
-- [Designspiration](https://www.designspiration.com) — — visual search
-- [The Index](https://theindex.website) — — curated site gallery
-- [Pafolios](https://pafolios.com) — — portfolio gallery
-- [Dark Design](https://www.dark.design) — — dark mode design showcase
-- [Dark Mode Design](https://www.darkmodedesign.com) — — dark UI inspiration
-- [H1 Gallery](https://h1gallery.com) — — headline gallery
-- [Bento Grids](https://bentogrids.com) — — bento layout gallery
-- [OGFolio](https://ogfolio.com) — — portfolio OG images
-- [Savee](https://savee.it) — — curated design collection
-- [Muzli](https://muz.li) — — design inspiration feed
-- [Cosmos](https://www.cosmos.so) — — design curation app
-- [Showcase](https://showcase.supply) — — design showcase
-- [Minimal Gallery](https://minimal.gallery) — — hand-picked web design inspiration
-- [Kage](https://kage.design) — — UI inspiration mapped to prompts
-- [A1 Gallery](https://www.a1.gallery) — — creative gallery
-- [Saaaspo](https://saaspo.com) — — SaaS landing page gallery
-- [SearchSystem](https://www.searchsystem.co) — — search UI gallery
-- [BP&O](https://bpando.org) — — branding & packaging inspiration
-- [Landdding](https://landdding.com) — — landing page inspiration
-- [Wonderlist](https://wonderlist.design) — — premium Figma design references
-- [WeDoFlow](https://wedoflow.com) — — 1300+ unique page references
+- [Refero](https://refero.design) — design inspiration gallery
+- [Lapa Ninja](https://www.lapa.ninja) — landing page gallery
+- [Httpster](https://httpster.net) — web design inspiration
+- [Designspiration](https://www.designspiration.com) — visual search
+- [The Index](https://theindex.website) — curated site gallery
+- [Pafolios](https://pafolios.com) — portfolio gallery
+- [Dark Design](https://www.dark.design) — dark mode design showcase
+- [Dark Mode Design](https://www.darkmodedesign.com) — dark UI inspiration
+- [H1 Gallery](https://h1gallery.com) — headline gallery
+- [Bento Grids](https://bentogrids.com) — bento layout gallery
+- [OGFolio](https://ogfolio.com) — portfolio OG images
+- [Savee](https://savee.it) — curated design collection
+- [Muzli](https://muz.li) — design inspiration feed
+- [Cosmos](https://www.cosmos.so) — design curation app
+- [Showcase](https://showcase.supply) — design showcase
+- [Minimal Gallery](https://minimal.gallery) — hand-picked web design inspiration
+- [Kage](https://kage.design) — UI inspiration mapped to prompts
+- [A1 Gallery](https://www.a1.gallery) — creative gallery
+- [Saaaspo](https://saaspo.com) — SaaS landing page gallery
+- [SearchSystem](https://www.searchsystem.co) — search UI gallery
+- [BP&O](https://bpando.org) — branding & packaging inspiration
+- [Landdding](https://landdding.com) — landing page inspiration
+- [Wonderlist](https://wonderlist.design) — premium Figma design references
+- [WeDoFlow](https://wedoflow.com) — 1300+ unique page references
 - [Navbar Gallery](https://navbar.gallery/)
 - [404s.design](https://www.404s.design/)
 - [Footer Design](https://footer.design/)
@@ -252,18 +252,18 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Component Gallery](https://component.gallery/)
 - [Deck Gallery](https://deck.gallery/)
 - [Screens Design](https://screensdesign.com/)
-- [AppShot Gallery](https://appshot.gallery) — — mobile app screenshot inspiration
-- [GoodCart](https://goodcart.design) — — ecommerce UI & UX inspiration
-- [Shoot](https://shoot.design) — — app screenshot & icon inspiration
-- [PushKeen](https://pushkeen.ai) — — push notification patterns from mobile apps
-- [ABTest Design](https://abtest.design) — — A/B test design inspiration
-- [Morphin Inspirations](https://morphin.dev/inspirations) — — UI inspiration from real products
-- [Shotreel](https://shotreel.app/) — — turn screenshots into looping showcase videos
-- [DesignBookmark](https://designbookmark.com/) — — directory of 2,000+ design tools and resources
-- [Appllama](https://appllama.io/) — — screens and flows from top-grossing iOS apps
-- [Graphical](https://graphicalui.com/) — — create visual themes and interfaces with coding agents
-- [Drawably](https://drawably.dev/) — — hand-drawn UI controls
-- [Amicons](https://amicons.design/) — — friendly icon library for creators and teams
+- [AppShot Gallery](https://appshot.gallery) — mobile app screenshot inspiration
+- [GoodCart](https://goodcart.design) — ecommerce UI & UX inspiration
+- [Shoot](https://shoot.design) — app screenshot & icon inspiration
+- [PushKeen](https://pushkeen.ai) — push notification patterns from mobile apps
+- [ABTest Design](https://abtest.design) — A/B test design inspiration
+- [Morphin Inspirations](https://morphin.dev/inspirations) — UI inspiration from real products
+- [Shotreel](https://shotreel.app/) — turn screenshots into looping showcase videos
+- [DesignBookmark](https://designbookmark.com/) — directory of 2,000+ design tools and resources
+- [Appllama](https://appllama.io/) — screens and flows from top-grossing iOS apps
+- [Graphical](https://graphicalui.com/) — create visual themes and interfaces with coding agents
+- [Drawably](https://drawably.dev/) — hand-drawn UI controls
+- [Amicons](https://amicons.design/) — friendly icon library for creators and teams
 - [Are.na](https://are.na/)
 - [Posts.design](https://posts.design/)
 - [Logosystem](https://logosystem.co/)
@@ -273,9 +273,9 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Fonts In Use](https://fontsinuse.com/)
 - [MNMM](https://mnmm.xyz/)
 - [Ogpedia](https://ogpedia.xyz/)
-- [Iconly](https://iconly.design) — — 900+ curated logos
-- [Font In Logo](https://fontinlogo.com) — — typefaces behind the best logos
-- [LogoToUse](https://logotouse.com) — — logo & identity references
+- [Iconly](https://iconly.design) — 900+ curated logos
+- [Font In Logo](https://fontinlogo.com) — typefaces behind the best logos
+- [LogoToUse](https://logotouse.com) — logo & identity references
 - [Fluid Shader](https://fluidshader.vercel.app/)
 - [Shader Gradient](https://shadergradient.co)
 - [Grainient](https://grainient.supply/)
@@ -284,8 +284,8 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Grids by Obys](https://grids.obys.agency/)
 - [Viscose Carousel](https://github.com/Yousuf-developer/Viscose-carousel)
 - [Colorflow](https://colorflow.ls.graphics)
-- [Design Spells](https://designspells.com) — — micro-interactions, easter eggs, and design details that feel like magic
-- [Motionin](https://motionin.design) — — motion & interaction inspiration
+- [Design Spells](https://designspells.com) — micro-interactions, easter eggs, and design details that feel like magic
+- [Motionin](https://motionin.design) — motion & interaction inspiration
 - [Ramps Studio](https://ramps.studio)
 - [beUI Pro](https://pro.beui.dev/)
 - [Tweakcn](https://tweakcn.com/)
@@ -295,7 +295,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Oedis UI](https://oedisui.pages.dev)
 - [Interface Craft](https://www.interfacecraft.dev/)
 - [Claude Directory](https://github.com/pulkitxm/claude-directory)
-- [DialKit](https://dialkit.dev/) — — live controls to tune motion, layout and color in interfaces
+- [DialKit](https://dialkit.dev/) — live controls to tune motion, layout and color in interfaces
 - [Pagy](https://pagy.co)
 - [Supaste](https://supaste.com)
 - [Frameblox](https://frameblox.com)
@@ -330,27 +330,27 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Lutgen](https://lut.sh/app)
 - [Colour Contrast Checker](https://colourcontrast.cc)
 - [vibeprompts.dev](https://vibeprompts.dev/)
-- [Hue](https://hue.tools) — — color toolbox: mix, convert, contrast
-- [Happy Hues](https://www.happyhues.co) — — curated color palettes
-- [Huemint](https://huemint.com) — — AI color palette generator
-- [Pigment](https://pigment.shapefactory.co) — — color palette generator
-- [Gradient](https://gradient.shapefactory.co) — — gradient generator
-- [RampenSau](https://meodai.github.io/rampensau) — — color ramps
-- [Khroma](https://www.khroma.co) — — AI color combos from your tastes
-- [Muzli Colors](https://colors.muz.li) — — palette explorer
-- [BGJar](https://bgjar.com) — — free SVG background generator
-- [Randoma11y](https://randoma11y.com) — — accessible random colors
-- [PaletteMaker](https://palettemaker.com/app) — — palette builder
-- [UI Colors](https://uicolors.app/create) — — Tailwind palette generator
-- [Fffuel](https://fffuel.co) — — SVG generators & color tools
-- [Haikei](https://haikei.app) — — generative SVG shapes/backgrounds
-- [Realtime Colors](https://www.realtimecolors.com) — — preview palettes on live UI
-- [PatternKid](https://patternkid.com) — — pattern generator
-- [Super Color Palette](https://supercolorpalette.com) — — curated palettes
-- [Charco Design](https://www.charco.design/grads-v2) — — gradient collections
-- [Hexful](https://hexful.com) — — color conversion tools
-- [Backgrounds Supply](https://www.backgrounds.supply) — — background collections
-- [Web Gradients](https://webgradients.com) — — 180 gradient presets
+- [Hue](https://hue.tools) — color toolbox: mix, convert, contrast
+- [Happy Hues](https://www.happyhues.co) — curated color palettes
+- [Huemint](https://huemint.com) — AI color palette generator
+- [Pigment](https://pigment.shapefactory.co) — color palette generator
+- [Gradient](https://gradient.shapefactory.co) — gradient generator
+- [RampenSau](https://meodai.github.io/rampensau) — color ramps
+- [Khroma](https://www.khroma.co) — AI color combos from your tastes
+- [Muzli Colors](https://colors.muz.li) — palette explorer
+- [BGJar](https://bgjar.com) — free SVG background generator
+- [Randoma11y](https://randoma11y.com) — accessible random colors
+- [PaletteMaker](https://palettemaker.com/app) — palette builder
+- [UI Colors](https://uicolors.app/create) — Tailwind palette generator
+- [Fffuel](https://fffuel.co) — SVG generators & color tools
+- [Haikei](https://haikei.app) — generative SVG shapes/backgrounds
+- [Realtime Colors](https://www.realtimecolors.com) — preview palettes on live UI
+- [PatternKid](https://patternkid.com) — pattern generator
+- [Super Color Palette](https://supercolorpalette.com) — curated palettes
+- [Charco Design](https://www.charco.design/grads-v2) — gradient collections
+- [Hexful](https://hexful.com) — color conversion tools
+- [Backgrounds Supply](https://www.backgrounds.supply) — background collections
+- [Web Gradients](https://webgradients.com) — 180 gradient presets
 - [Cubic Bezier](https://cubic-bezier.com)
 - [Bezier Easing Editor](https://gre.github.io/bezier-easing-editor/)
 - [easings.co](https://easings.co)
@@ -358,144 +358,144 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Devicon](https://devicon.dev)
 - [ShapeShifter](https://shapeshifter.design)
 - [Mapshaper](https://mapshaper.org)
-- [Lucide](https://lucide.dev) — — open-source icon set
-- [Phosphor Icons](https://phosphoricons.com) — — flexible icon family
-- [Tabler Icons](https://tabler.io/icons) — — 5000+ MIT icons
-- [Remix Icons](https://remixicon.com) — — open-source icon set
-- [Box Icons](https://boxicons.com) — — 1500+ MIT icons
-- [CSS GG](https://css.gg) — — pure CSS icon set
-- [Iconoir](https://iconoir.com) — — free open-source icons
-- [Bootstrap Icons](https://icons.getbootstrap.com) — — official Bootstrap icons
-- [Line Icons](https://lineicons.com) — — line-style icons
-- [Iconmonstr](https://iconmonstr.com) — — free icons
-- [SVG Repo](https://www.svgrepo.com) — — 500K+ SVG vectors
-- [Svgl](https://svgl.app) — — SVG logos
-- [MingCute Icons](https://www.mingcute.com) — — 3000+ icons
-- [3dicons](https://3dicons.co) — — 3D icon library
-- [HugeIcons](https://hugeicons.com) — — icon library
-- [OpenMoji](https://openmoji.org) — — open-source emoji
-- [Flaticon](https://www.flaticon.com) — — 10M+ icons
-- [Icons8](https://icons8.com/icons) — — icon collection
-- [Nucleo](https://nucleoapp.com) — — icon manager
-- [Streamline](https://home.streamlinehq.com) — — icon & illustration system
-- [UseAnimations](https://useanimations.com) — — animated icons
-- [React Symbols](https://react-symbols.vercel.app) — — React icons
-- [Pixel Art Icons](https://pixelarticons.com) — — pixel icons
+- [Lucide](https://lucide.dev) — open-source icon set
+- [Phosphor Icons](https://phosphoricons.com) — flexible icon family
+- [Tabler Icons](https://tabler.io/icons) — 5000+ MIT icons
+- [Remix Icons](https://remixicon.com) — open-source icon set
+- [Box Icons](https://boxicons.com) — 1500+ MIT icons
+- [CSS GG](https://css.gg) — pure CSS icon set
+- [Iconoir](https://iconoir.com) — free open-source icons
+- [Bootstrap Icons](https://icons.getbootstrap.com) — official Bootstrap icons
+- [Line Icons](https://lineicons.com) — line-style icons
+- [Iconmonstr](https://iconmonstr.com) — free icons
+- [SVG Repo](https://www.svgrepo.com) — 500K+ SVG vectors
+- [Svgl](https://svgl.app) — SVG logos
+- [MingCute Icons](https://www.mingcute.com) — 3000+ icons
+- [3dicons](https://3dicons.co) — 3D icon library
+- [HugeIcons](https://hugeicons.com) — icon library
+- [OpenMoji](https://openmoji.org) — open-source emoji
+- [Flaticon](https://www.flaticon.com) — 10M+ icons
+- [Icons8](https://icons8.com/icons) — icon collection
+- [Nucleo](https://nucleoapp.com) — icon manager
+- [Streamline](https://home.streamlinehq.com) — icon & illustration system
+- [UseAnimations](https://useanimations.com) — animated icons
+- [React Symbols](https://react-symbols.vercel.app) — React icons
+- [Pixel Art Icons](https://pixelarticons.com) — pixel icons
 - [Open Screenshot Generator](https://www.openscrgen.app/)
 - [Vuegg](https://vuegg.github.io)
-- [Mockup World](https://www.mockupworld.co) — — free mockups
-- [Placeit](https://placeit.net) — — mockup generator
-- [LS Graphics](https://www.ls.graphics) — — mockups & UI assets
-- [Good Mockups](https://goodmockups.com) — — free mockups
-- [Fockups](https://fockups.com) — — free mockup collections
-- [Mockup Zone](https://www.mockup.zone) — — free mockups
-- [Mockuuups Studio](https://mockuuups.studio) — — mockup generator
-- [Mockup Cloud](https://www.mockupcloud.com) — — high-quality free mockups
-- [Unblast](https://unblast.com/mockups) — — free design resources
-- [Minimal Mockups](https://www.minimalmockups.com) — — clean mockups
-- [Mockup Maison](https://mockup.maison) — — mockup packs
-- [Mockup Online](https://mockup-online.wannathis.one) — — instant mockups
-- [MockupApp](https://mockupapp.ls.graphics/banner/latest-free-mockups) — — banner mockups
-- [Orbyt Studio](https://orbyt.studio) — — 3D mockups & assets
-- [Ply](https://www.ply.supply) — — free mockups
-- [Colortime](https://colortime.shop) — — mockup & asset packs
+- [Mockup World](https://www.mockupworld.co) — free mockups
+- [Placeit](https://placeit.net) — mockup generator
+- [LS Graphics](https://www.ls.graphics) — mockups & UI assets
+- [Good Mockups](https://goodmockups.com) — free mockups
+- [Fockups](https://fockups.com) — free mockup collections
+- [Mockup Zone](https://www.mockup.zone) — free mockups
+- [Mockuuups Studio](https://mockuuups.studio) — mockup generator
+- [Mockup Cloud](https://www.mockupcloud.com) — high-quality free mockups
+- [Unblast](https://unblast.com/mockups) — free design resources
+- [Minimal Mockups](https://www.minimalmockups.com) — clean mockups
+- [Mockup Maison](https://mockup.maison) — mockup packs
+- [Mockup Online](https://mockup-online.wannathis.one) — instant mockups
+- [MockupApp](https://mockupapp.ls.graphics/banner/latest-free-mockups) — banner mockups
+- [Orbyt Studio](https://orbyt.studio) — 3D mockups & assets
+- [Ply](https://www.ply.supply) — free mockups
+- [Colortime](https://colortime.shop) — mockup & asset packs
 - [Fonttrio](https://www.fonttrio.xyz/)
-- [Google Fonts](https://fonts.google.com) — — free font library
-- [Fontshare](https://www.fontshare.com) — — free fonts by ITF
-- [Fontsource](https://fontsource.org) — — self-host open-source fonts
-- [The League of Moveable Type](https://www.theleagueofmoveabletype.com) — — open-source fonts
-- [Velvetyne](https://velvetyne.fr) — — free fonts foundry
-- [Open Foundry](https://open-foundry.com/fonts) — — open-source type
-- [type.lol](https://type.lol) — — free fonts
-- [Fontfabric](https://www.fontfabric.com) — — free & premium type foundry
-- [Pangram Pangram](https://pangrampangram.com) — — type foundry
-- [Fontesk](https://fontesk.com) — — free fonts
-- [Free Typography](https://freetypography.com) — — free type resources
-- [Font Brief](https://www.fontbrief.com/home) — — type inspiration
-- [Abstract Fonts](https://www.abstractfonts.com) — — free fonts
-- [Fontspace](https://www.fontspace.com) — — free fonts
-- [Fonts Ninja](https://fonts.ninja) — — font identifier & manager
-- [Pixel Buddha](https://pixelbuddha.net/fonts) — — free fonts & resources
-- [Future Fonts](https://www.futurefonts.com/fonts) — — font store
-- [Ohno Type](https://ohnotype.co) — — type foundry
-- [Superior Type](https://www.superiortype.com) — — type foundry
-- [Beautiful Webtype](https://www.beautifulwebtype.com) — — web font showcase
-- [Blush](https://blush.design) — — illustration generator
-- [Storyset](https://storyset.com) — — free illustrations
-- [ManyPixels](https://www.manypixels.co/gallery) — — free illustrations
-- [IRA Design](https://iradesign.io/gallery/illustrations) — — illustrated components
-- [Open Doodles](https://www.opendoodles.com) — — free sketchy illustrations
-- [Pixel True](https://www.pixeltrue.com/packs) — — illustration packs
-- [Fresh Folk](https://fresh-folk.com) — — free illustrated characters
-- [Shapefest](https://www.shapefest.com) — — 3D illustration library
-- [Characterz](https://characterz.design) — — character illustrations
-- [Free Illustrations](https://freeillustrations.xyz) — — curated free illustrations
-- [Illlustrations](https://illlustrations.co) — — open-source illustrations
-- [Getillustrations](https://www.getillustrations.com) — — illustration library
-- [Notioly](https://notioly.com) — — Notion-style 3D illustrations
-- [Open Stickers](https://openstickers.craftwork.design) — — free stickers
-- [Handz](https://www.handz.design) — — hand illustrations
-- [Durves](https://www.durves.com) — — 3D shapes
-- [Doodle Ipsum](https://doodleipsum.com) — — doodle placeholder generator
-- [Userpics](https://userpics.craftwork.design) — — avatar illustrations
-- [3D Icons](https://www.3dicons.com) — — 3D icon/illustration library
-- [Humans 3.0](https://humans.wannathis.one) — — 3D human illustrations
-- [DesEngs](https://desengs.com/) — — resources for design engineers: inspiration, minimal sites, designers to follow
-- [Design Engineer Tools](https://designengineer.tools/) — — directory of design engineering tools (20+ categories)
-- [Modulify](https://modulify.ai/templates) — — 100+ website templates
-- [SkillsMP](https://skillsmp.com/) — — marketplace for Claude, Codex, and agent skills
-- [GitHub Skills Search](https://github.com/search?q=skills&type=repositories) — — discover relevant agent skills repositories
-- [GitHub Trending Developers](https://github.com/trending/developers) — — discover trending developer tools and creators
-- [Shots](https://www.shots.so) — — design mockup tool
-- [Rotato](https://rotato.app) — — 3D mockup generator
-- [Animo](https://animos.app) — — motion/animation tool
-- [Ditther](https://www.ditther.com) — — dithering tool
-- [Asciinator](https://asciinator.app) — — image to ASCII art
-- [ASC11](https://asc11.com) — — ASCII art generator
-- [Dot Shader](https://iamnoman.com/dot) — — dot pattern shader
-- [Gradientool](https://www.gradientool.com) — — gradient presets
-- [Photogradient](https://photogradient.com) — — photo gradient tool
-- [Grainrad](https://grainrad.com) — — grain gradient generator
-- [Symbl](https://symbl.space) — — minimal symbols
-- [UIFonts](https://www.uifonts.app) — — UI font pairing tool
-- [Postspark](https://postspark.app) — — social media design
-- [Zoxilsi Studio](https://studio.zoxilsi.cc) — — browser design studio
-- [UIAble](https://uiable.com) — — complete shadcn design system
-- [MicroKit UI](https://microkit.co) — — copy-paste React and CSS micro-interactions
-- [Liquid Glass](https://glass.samasante.com) — — live DOM refraction components
-- [Circle Loaders](https://circleloaders.dominikakissi.com) — — monochrome agent-status animations
-- [Anime.js](https://animejs.com) — — JavaScript animation engine
-- [Get ArtCraft](https://getartcraft.com/apps) — — open-source creative apps
-- [Refero Styles](https://styles.refero.design) — — DESIGN.md examples for AI agents
-- [TypeUI](https://typeui.sh) — — open-source CLI to generate/manage DESIGN.md & SKILL.md for AI coding
-- [designmd.supply](https://designmd.supply) — — turn any public domain into an AI-ready DESIGN.md
-- [Neuform](https://neuform.ai) — — AI landing page builder with remix templates
-- [DesignMD](https://designmd.me) — — generate DESIGN.md files with AI
-- [getdesign.md](https://getdesign.md) — — DESIGN.md collection for AI coding agents
-- [Design.MD Store](https://designmd-store.com) — — AI-ready design system files
-- [Niblet](https://niblet.com) — — UI design references for AI coding agents
-- [DESIGNmd](https://designmd.ai) — — design systems as Markdown for AI coding
-- [Impeccable](https://impeccable.style/) — — design vocabulary and anti-slop frontend skill for agents
-- [Three.js Skills](https://github.com/cloudai-x/threejs-skills) — — Three.js knowledge base skills for AI coding agents
-- [Higgsfield](https://higgsfield.ai/) — — AI image and video generation suite with MCP
-- [Brag](https://github.com/latent-spaces/brag) — — open-source product demo video generator
-- [MCP for Blender](https://github.com/ahujasid/mcp-for-blender) — — Blender integration for Claude and MCP clients
-- [OpenAI Dots](https://openai.com/index/introducing-dots/) — — Astra 6 visual workflow for presentations and 3D creation
+- [Google Fonts](https://fonts.google.com) — free font library
+- [Fontshare](https://www.fontshare.com) — free fonts by ITF
+- [Fontsource](https://fontsource.org) — self-host open-source fonts
+- [The League of Moveable Type](https://www.theleagueofmoveabletype.com) — open-source fonts
+- [Velvetyne](https://velvetyne.fr) — free fonts foundry
+- [Open Foundry](https://open-foundry.com/fonts) — open-source type
+- [type.lol](https://type.lol) — free fonts
+- [Fontfabric](https://www.fontfabric.com) — free & premium type foundry
+- [Pangram Pangram](https://pangrampangram.com) — type foundry
+- [Fontesk](https://fontesk.com) — free fonts
+- [Free Typography](https://freetypography.com) — free type resources
+- [Font Brief](https://www.fontbrief.com/home) — type inspiration
+- [Abstract Fonts](https://www.abstractfonts.com) — free fonts
+- [Fontspace](https://www.fontspace.com) — free fonts
+- [Fonts Ninja](https://fonts.ninja) — font identifier & manager
+- [Pixel Buddha](https://pixelbuddha.net/fonts) — free fonts & resources
+- [Future Fonts](https://www.futurefonts.com/fonts) — font store
+- [Ohno Type](https://ohnotype.co) — type foundry
+- [Superior Type](https://www.superiortype.com) — type foundry
+- [Beautiful Webtype](https://www.beautifulwebtype.com) — web font showcase
+- [Blush](https://blush.design) — illustration generator
+- [Storyset](https://storyset.com) — free illustrations
+- [ManyPixels](https://www.manypixels.co/gallery) — free illustrations
+- [IRA Design](https://iradesign.io/gallery/illustrations) — illustrated components
+- [Open Doodles](https://www.opendoodles.com) — free sketchy illustrations
+- [Pixel True](https://www.pixeltrue.com/packs) — illustration packs
+- [Fresh Folk](https://fresh-folk.com) — free illustrated characters
+- [Shapefest](https://www.shapefest.com) — 3D illustration library
+- [Characterz](https://characterz.design) — character illustrations
+- [Free Illustrations](https://freeillustrations.xyz) — curated free illustrations
+- [Illlustrations](https://illlustrations.co) — open-source illustrations
+- [Getillustrations](https://www.getillustrations.com) — illustration library
+- [Notioly](https://notioly.com) — Notion-style 3D illustrations
+- [Open Stickers](https://openstickers.craftwork.design) — free stickers
+- [Handz](https://www.handz.design) — hand illustrations
+- [Durves](https://www.durves.com) — 3D shapes
+- [Doodle Ipsum](https://doodleipsum.com) — doodle placeholder generator
+- [Userpics](https://userpics.craftwork.design) — avatar illustrations
+- [3D Icons](https://www.3dicons.com) — 3D icon/illustration library
+- [Humans 3.0](https://humans.wannathis.one) — 3D human illustrations
+- [DesEngs](https://desengs.com/) — resources for design engineers: inspiration, minimal sites, designers to follow
+- [Design Engineer Tools](https://designengineer.tools/) — directory of design engineering tools (20+ categories)
+- [Modulify](https://modulify.ai/templates) — 100+ website templates
+- [SkillsMP](https://skillsmp.com/) — marketplace for Claude, Codex, and agent skills
+- [GitHub Skills Search](https://github.com/search?q=skills&type=repositories) — discover relevant agent skills repositories
+- [GitHub Trending Developers](https://github.com/trending/developers) — discover trending developer tools and creators
+- [Shots](https://www.shots.so) — design mockup tool
+- [Rotato](https://rotato.app) — 3D mockup generator
+- [Animo](https://animos.app) — motion/animation tool
+- [Ditther](https://www.ditther.com) — dithering tool
+- [Asciinator](https://asciinator.app) — image to ASCII art
+- [ASC11](https://asc11.com) — ASCII art generator
+- [Dot Shader](https://iamnoman.com/dot) — dot pattern shader
+- [Gradientool](https://www.gradientool.com) — gradient presets
+- [Photogradient](https://photogradient.com) — photo gradient tool
+- [Grainrad](https://grainrad.com) — grain gradient generator
+- [Symbl](https://symbl.space) — minimal symbols
+- [UIFonts](https://www.uifonts.app) — UI font pairing tool
+- [Postspark](https://postspark.app) — social media design
+- [Zoxilsi Studio](https://studio.zoxilsi.cc) — browser design studio
+- [UIAble](https://uiable.com) — complete shadcn design system
+- [MicroKit UI](https://microkit.co) — copy-paste React and CSS micro-interactions
+- [Liquid Glass](https://glass.samasante.com) — live DOM refraction components
+- [Circle Loaders](https://circleloaders.dominikakissi.com) — monochrome agent-status animations
+- [Anime.js](https://animejs.com) — JavaScript animation engine
+- [Get ArtCraft](https://getartcraft.com/apps) — open-source creative apps
+- [Refero Styles](https://styles.refero.design) — DESIGN.md examples for AI agents
+- [TypeUI](https://typeui.sh) — open-source CLI to generate/manage DESIGN.md & SKILL.md for AI coding
+- [designmd.supply](https://designmd.supply) — turn any public domain into an AI-ready DESIGN.md
+- [Neuform](https://neuform.ai) — AI landing page builder with remix templates
+- [DesignMD](https://designmd.me) — generate DESIGN.md files with AI
+- [getdesign.md](https://getdesign.md) — DESIGN.md collection for AI coding agents
+- [Design.MD Store](https://designmd-store.com) — AI-ready design system files
+- [Niblet](https://niblet.com) — UI design references for AI coding agents
+- [DESIGNmd](https://designmd.ai) — design systems as Markdown for AI coding
+- [Impeccable](https://impeccable.style/) — design vocabulary and anti-slop frontend skill for agents
+- [Three.js Skills](https://github.com/cloudai-x/threejs-skills) — Three.js knowledge base skills for AI coding agents
+- [Higgsfield](https://higgsfield.ai/) — AI image and video generation suite with MCP
+- [Brag](https://github.com/latent-spaces/brag) — open-source product demo video generator
+- [MCP for Blender](https://github.com/ahujasid/mcp-for-blender) — Blender integration for Claude and MCP clients
+- [OpenAI Dots](https://openai.com/index/introducing-dots/) — Astra 6 visual workflow for presentations and 3D creation
 - [openmotion.design](https://openmotion.design/)
 - [Gooey (Jakub Antalik)](https://gooey.jakubantalik.com/)
 - [Kitbitz](https://kitbitz.art/)
 - [Renotch](https://github.com/yosaiy/renotch)
-- [Animations.dev](https://animations.dev) — — animation tutorials & components
-- [Easing.dev](https://www.easing.dev) — — easing curve presets & generators
-- [UI Land](https://ui.land) — — animation library & playground
-- [Fancy Components](https://www.fancycomponents.dev) — — animation components
-- [Interfaces.dev](https://interfaces.dev) — — animated UI components
-- [cmdk](https://github.com/dip/cmdk) — — fast command palette (React)
-- [Morphrig](https://morphrig.dev) — — morphing/motion playground
-- [UI Playbook](https://uiplaybook.dev) — — UI patterns & interactions
-- [UI Camera](https://ui.camera) — — UI animation reference capture
-- [CRD UI](https://crd-ui.juanda.co/) — — component library
-- [DesignEng Club](https://designeng.club/) — — design engineering community
+- [Animations.dev](https://animations.dev) — animation tutorials & components
+- [Easing.dev](https://www.easing.dev) — easing curve presets & generators
+- [UI Land](https://ui.land) — animation library & playground
+- [Fancy Components](https://www.fancycomponents.dev) — animation components
+- [Interfaces.dev](https://interfaces.dev) — animated UI components
+- [cmdk](https://github.com/dip/cmdk) — fast command palette (React)
+- [Morphrig](https://morphrig.dev) — morphing/motion playground
+- [UI Playbook](https://uiplaybook.dev) — UI patterns & interactions
+- [UI Camera](https://ui.camera) — UI animation reference capture
+- [CRD UI](https://crd-ui.juanda.co/) — component library
+- [DesignEng Club](https://designeng.club/) — design engineering community
 
 ## Prompts
 
@@ -507,8 +507,8 @@ Curated directory of design resources. Grouped by category. Each line is
 - [MotionSites AI](https://motionsites.ai/) — (145 prompts)
 - [Jiro Build](https://jiro.build/) — (392 prompts)
 - [SceneAI](https://sceneai.art/) — (31 prompts)
-- [ScrollTide](https://scrolltide.co) — — 600+ complete website prompts and design briefs
-- [Prompt Motion](https://prompt-motion.com/) — — motion video references with prompts and skills behind them
+- [ScrollTide](https://scrolltide.co) — 600+ complete website prompts and design briefs
+- [Prompt Motion](https://prompt-motion.com/) — motion video references with prompts and skills behind them
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
 - [ChatGPT Personas](https://github.com/f/awesome-chatgpt-prompts) — (6 personas)

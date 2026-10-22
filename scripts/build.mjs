@@ -92,7 +92,10 @@ function writeLlms(data) {
     index.push(`- [${key}](${base}): ${count} resources`);
     full.push(`## ${key}`, "");
     for (const it of data[key]) {
-      const note = it.note ? ` — ${it.note}` : "";
+      // Notes in resources/*.md already carry a leading "— " separator; strip it
+      // so the emitted line reads "[Name](url) — note" and not "— — note".
+      const clean = it.note ? it.note.replace(/^[—–-]+\s*/, "").trim() : "";
+      const note = clean ? ` — ${clean}` : "";
       full.push(`- [${it.name}](${it.url})${note}`);
     }
     full.push("");
