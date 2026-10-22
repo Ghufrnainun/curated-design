@@ -56,6 +56,7 @@
 - [Shadcn Blocks](https://shadcnblocks.com)
 - [Shadcncraft](https://shadcncraft.com)
 - [Shadcn Studio](https://shadcnstudio.com)
+- [UI Layouts](https://www.ui-layouts.com/) — 60+ accessible React, Next.js, and Tailwind CSS components
 
 ## C. Chinese / East Asian Enterprise
 
@@ -139,6 +140,7 @@
 - [React Bits](https://reactbits.dev)
 - [Evil Charts](https://evilcharts.com)
 - [Evil Buttons](https://evilbuttons.com) — animated shadcn/ui components with Motion
+- [Number Flow](https://number-flow.barvian.me/) — accessible animated number component for React
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)

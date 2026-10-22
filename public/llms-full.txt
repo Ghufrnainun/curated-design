@@ -56,6 +56,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Shadcn Blocks](https://shadcnblocks.com)
 - [Shadcncraft](https://shadcncraft.com)
 - [Shadcn Studio](https://shadcnstudio.com)
+- [UI Layouts](https://www.ui-layouts.com/) — — 60+ accessible React, Next.js, and Tailwind CSS components
 - [Element Plus](https://element-plus.org/)
 - [Naive UI](https://www.naiveui.com/)
 - [Semi Design](https://semi.design/)
@@ -118,6 +119,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [React Bits](https://reactbits.dev)
 - [Evil Charts](https://evilcharts.com)
 - [Evil Buttons](https://evilbuttons.com) — — animated shadcn/ui components with Motion
+- [Number Flow](https://number-flow.barvian.me/) — — accessible animated number component for React
 - [assistant-ui](https://assistant-ui.com)
 - [driver.js](https://driverjs.com)
 - [Tailark](https://tailark.com)
@@ -293,6 +295,7 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Oedis UI](https://oedisui.pages.dev)
 - [Interface Craft](https://www.interfacecraft.dev/)
 - [Claude Directory](https://github.com/pulkitxm/claude-directory)
+- [DialKit](https://dialkit.dev/) — — live controls to tune motion, layout and color in interfaces
 - [Pagy](https://pagy.co)
 - [Supaste](https://supaste.com)
 - [Frameblox](https://frameblox.com)

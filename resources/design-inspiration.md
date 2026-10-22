@@ -102,6 +102,7 @@
 - [Oedis UI](https://oedisui.pages.dev)
 - [Interface Craft](https://www.interfacecraft.dev/)
 - [Claude Directory](https://github.com/pulkitxm/claude-directory)
+- [DialKit](https://dialkit.dev/) — live controls to tune motion, layout and color in interfaces
 
 ## Productivity & dev tools
 

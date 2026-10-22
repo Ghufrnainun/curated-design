@@ -17,8 +17,8 @@ directly at the resource itself, grouped by category:
 
 | Category | Count |
 |---|---|
-| Component Libraries | 171 |
-| Design Inspiration | 116 |
+| Component Libraries | 173 |
+| Design Inspiration | 117 |
 | Developer Tools | 172 |
 | Design Systems | 20 |
 | AI Design Prompts | 13 |
