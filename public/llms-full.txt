@@ -287,6 +287,14 @@ Curated directory of design resources. Grouped by category. Each line is
 - [Design Spells](https://designspells.com) — micro-interactions, easter eggs, and design details that feel like magic
 - [Motionin](https://motionin.design) — motion & interaction inspiration
 - [Ramps Studio](https://ramps.studio)
+- [Awesome Opus 5.5 Videos](https://github.com/yihui-dev/awesome-opus5-5-videos) — viral code-rendered videos with the prompts behind them
+- [Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar) — 59 ready-to-use film styles as prompts for Claude Code
+- [mg-styles-15](https://github.com/Vincentwei1021/mg-styles-15) — 15 motion design styles, each from a single prompt
+- [ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) — starter kit for animating hand-painted cartoons with p5.js
+- [Awesome Claude Videos](https://github.com/athemeroy/awesome-claude-5-5-videos) — source-linked video workflows, prompts and demos
+- [Opus Video Prompts](https://github.com/joeseesun/opus-video-prompts) — 54 copy-ready prompts for code-rendered video
+- [PDoom Video (mexicat)](https://github.com/mexicat/pdoom-video) — code-rendered music video source
+- [PDoom Video (JohnHeibel)](https://github.com/JohnHeibel/PDoomVideo) — source for a code-rendered music video
 - [beUI Pro](https://pro.beui.dev/)
 - [Tweakcn](https://tweakcn.com/)
 - [Uiverse](https://uiverse.io/)
