@@ -16,8 +16,48 @@ const CATEGORIES = [
   ["prompts.md", "Prompts"],
 ];
 
+// og:image values the hover preview should not use (the typographic fallback card looks better).
+// Kept here, not in og.json, so re-running fetch-og.mjs cannot bring them back.
+const OG_SKIP = new Set([
+  // over 2MB: too heavy to load on hover
+  "https://www.ciridae.com",
+  "https://superpower.com",
+  "https://shoot.design",
+  "https://fffuel.co",
+  "https://spectrum.adobe.com/",
+  // a logo or favicon, not a preview of the site
+  "https://github.com/search?q=skills&type=repositories",
+  "https://github.com/trending/developers",
+  "https://www.apple.com",
+  "https://bootstrap-vue.org/",
+  "https://colourcontrast.cc",
+  "https://oedisui.pages.dev",
+  "https://studio.zoxilsi.cc",
+  "https://v2.grommet.io/",
+  "https://onsen.io/",
+  "https://www.abstractfonts.com",
+  "https://mockup.maison",
+  "https://fluent2.microsoft.design/",
+]);
+
+// resources/og.json: { url: verified og:image url | null }, written by scripts/fetch-og.mjs.
+// SVGs and plain-http images are dropped too (mixed content, inconsistent rendering).
+function readOg() {
+  let og = {};
+  try {
+    og = JSON.parse(fs.readFileSync(path.join(RES_DIR, "og.json"), "utf8"));
+  } catch {
+    return {};
+  }
+  for (const [page, img] of Object.entries(og)) {
+    if (!img || OG_SKIP.has(page) || img.startsWith("http:") || /\.svg(\?|$)/i.test(img)) delete og[page];
+  }
+  return og;
+}
+
 function build() {
   const parsed = parseDirectory(RES_DIR);
+  const og = readOg();
   const data = {};
   for (const [file, key] of CATEGORIES) {
     const p = parsed[file];
@@ -37,6 +77,7 @@ function build() {
           ...(g.name !== "General" ? { group: g.name } : {}),
           ...(it.note ? { note: it.note } : {}),
           ...(fav ? { fav } : {}),
+          ...(og[it.url] ? { og: og[it.url] } : {}),
         });
       }
     }
