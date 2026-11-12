@@ -18,13 +18,20 @@ resources/
 `npm run build` parses those files into `src/data.js`, which the React app
 imports. `npm test` validates the parser. No database, no CMS, no backend.
 
+## Suggesting without code
+
+Open the [Add a resource form](https://github.com/Ghufrnainun/curated-design/issues/new?template=add-resource.yml).
+It asks for the name, URL, category, and a one-line description. A free
+GitHub account is required.
+
 ## Adding or editing a resource
 
-1. Open the matching file under `resources/`.
-2. Add one line for the resource:
+1. Open the matching file under `resources/`. You can edit it straight in the
+   browser on GitHub; it will fork the repo and open a pull request for you.
+2. Add one line for the resource, with a short description after a dash:
 
    ```md
-   - [Name](https://example.com)
+   - [Name](https://example.com) — short description
    ```
 
 3. Optional: create a subcategory by adding a `##` heading above a group of
@@ -50,8 +57,8 @@ imports. `npm test` validates the parser. No database, no CMS, no backend.
 
 Guidelines:
 
-- Keep entries as one line: name + URL. Optionally add a short note in
-  parentheses after the URL.
+- Keep entries as one line: name + URL, then an optional short description
+  after a dash. The site shows it in the Description column.
 - Do not add resources that are paywalled, invitation-only, or broken.
 - Prefer the canonical homepage URL over a deep link.
 - Check the list for existing entries before adding, to avoid duplicates.

@@ -1,20 +1,27 @@
 name: Add a resource
 description: Suggest adding a design resource to the directory
 title: "Add: "
-labels: [enhancement]
+labels: [enhancement, needs-triage]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Fill in the fields below and it will be reviewed before it goes live.
+        Check the site first to make sure it is not already listed: https://design.ghuf.app
   - type: input
     id: name
     attributes:
       label: Resource name
       description: The name to display.
+      placeholder: Radix UI
     validations:
       required: true
   - type: input
     id: url
     attributes:
       label: URL
-      description: Canonical homepage of the resource.
+      description: Canonical homepage of the resource, not a post about it.
+      placeholder: https://radix-ui.com
     validations:
       required: true
   - type: dropdown
@@ -29,9 +36,22 @@ body:
         - Prompts
     validations:
       required: true
+  - type: input
+    id: description
+    attributes:
+      label: One-line description
+      description: Shown next to the name on the site. Keep it short and plain.
+      placeholder: Unstyled, accessible React primitives
+    validations:
+      required: true
+  - type: input
+    id: group
+    attributes:
+      label: Group (optional)
+      description: The subcategory it fits, if you know it. For example Animated components or Color and palettes.
   - type: textarea
     id: why
     attributes:
       label: Why add it?
       description: One or two sentences on why it belongs in the directory.
-      placeholder: "e.g. It is a widely used open-source animated component library."
+      placeholder: It is a widely used open-source animated component library.

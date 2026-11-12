@@ -77,10 +77,13 @@ npm run preview # serve src/ at http://127.0.0.1:8137
 
 ## Add a resource
 
-Open the matching file under `resources/` and add one line:
+No code? [Suggest it with the form](https://github.com/Ghufrnainun/curated-design/issues/new?template=add-resource.yml).
+
+Or open the matching file under `resources/` and add one line, with an
+optional short description after a dash:
 
 ```md
-- [Name](https://example.com)
+- [Name](https://example.com) — short description
 ```
 
 Optional subcategory (creates a group):
