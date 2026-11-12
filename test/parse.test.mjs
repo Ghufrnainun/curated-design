@@ -48,6 +48,17 @@ test("optional note after url is captured", () => {
   assert.equal(r.groups[0].items[0].note, "(145 prompts)");
 });
 
+test("leading dash separator is stripped from notes", () => {
+  const md = `# Tools
+
+- [Hue](https://hue.tools) — color toolbox
+- [Pigment](https://pigment.co) - palette generator
+`;
+  const r = parseMarkdown(md);
+  assert.equal(r.groups[0].items[0].note, "color toolbox");
+  assert.equal(r.groups[0].items[1].note, "palette generator");
+});
+
 test("non-bullet lines are ignored", () => {
   const md = `# Category
 

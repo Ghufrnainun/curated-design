@@ -38,7 +38,8 @@ export function parseMarkdown(text) {
     if (m) {
       const name = m[1].trim();
       const url = m[2].trim();
-      const note = m[3] ? m[3].trim() : undefined;
+      // Markdown writes notes as "— note"; the dash is a separator, not content.
+      const note = m[3] ? m[3].replace(/^[—–-]+\s*/, "").trim() || undefined : undefined;
       if (!currentGroup) {
         currentGroup = { name: "General", items: [] };
         groups.push(currentGroup);
