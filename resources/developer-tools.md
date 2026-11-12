@@ -13,6 +13,7 @@
 - [Huemint](https://huemint.com) — AI color palette generator
 - [Pigment](https://pigment.shapefactory.co) — color palette generator
 - [Gradient](https://gradient.shapefactory.co) — gradient generator
+- [Feralui Gradients](https://feralui.dev/gradients) — mesh, grainy and animated gradient generator
 - [RampenSau](https://meodai.github.io/rampensau) — color ramps
 - [Khroma](https://www.khroma.co) — AI color combos from your tastes
 - [Muzli Colors](https://colors.muz.li) — palette explorer
