@@ -19,7 +19,7 @@ directly at the resource itself, grouped by category:
 |---|---|
 | Component Libraries | 173 |
 | Design Inspiration | 125 |
-| Developer Tools | 173 |
+| Developer Tools | 174 |
 | Design Systems | 20 |
 | AI Design Prompts | 13 |
 

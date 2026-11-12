@@ -166,6 +166,7 @@
 - [Circle Loaders](https://circleloaders.dominikakissi.com) — monochrome agent-status animations
 - [Anime.js](https://animejs.com) — JavaScript animation engine
 - [Get ArtCraft](https://getartcraft.com/apps) — open-source creative apps
+- [Pic2SVG](https://pic2svg.com) — image to SVG converter (raster to vector)
 
 ## DESIGN.md for AI coding
 
