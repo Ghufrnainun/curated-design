@@ -39,6 +39,28 @@ test("search + category combine", () => {
   assert.equal(r.B.length, 0);
 });
 
+const RICH = {
+  Tools: [
+    { name: "Hue", url: "https://hue.tools", group: "Color", note: "contrast checker" },
+    { name: "Lucide", url: "https://lucide.dev", group: "Icons", note: "open source icons" },
+  ],
+};
+
+test("search matches note and group, not only name", () => {
+  assert.equal(filterData(RICH, ["Tools"], ALL_LABEL, "contrast").Tools[0].name, "Hue");
+  assert.equal(filterData(RICH, ["Tools"], ALL_LABEL, "icons").Tools.length, 1);
+});
+
+test("multi-word search requires every term", () => {
+  assert.equal(filterData(RICH, ["Tools"], ALL_LABEL, "open icons").Tools.length, 1);
+  assert.equal(filterData(RICH, ["Tools"], ALL_LABEL, "open contrast").Tools.length, 0);
+});
+
+test("group filter narrows a selected category", () => {
+  const r = filterData(RICH, ["Tools"], "Tools", "", "Icons");
+  assert.deepEqual(r.Tools.map((i) => i.name), ["Lucide"]);
+});
+
 test("search with no match returns empty arrays, not undefined", () => {
   const r = filterData(DATA, ORDER, ALL_LABEL, "zzz");
   assert.equal(r.A.length, 0);
